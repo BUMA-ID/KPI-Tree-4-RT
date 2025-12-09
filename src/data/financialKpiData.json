@@ -1,0 +1,1860 @@
+[
+  {
+    "id": "value-creation",
+    "name": "Value Creation",
+    "children": [
+      {
+        "id": "roic",
+        "name": "ROIC (Return on Invested Capital)",
+        "unit": "%",
+        "children": [
+          {
+            "id": "nopat",
+            "name": "NOPAT (Net Operating Profit After Tax)",
+            "unit": "$",
+            "children": [
+              {
+                "id": "operating-profit",
+                "name": "Operating Profit (EBIT)",
+                "unit": "$"
+              },
+              {
+                "id": "tax-rate",
+                "name": "Effective Tax Rate",
+                "unit": "%",
+                "esg": "G"
+              }
+            ]
+          },
+          {
+            "id": "invested-capital",
+            "name": "Invested Capital",
+            "unit": "$",
+            "children": [
+              {
+                "id": "fixed-assets",
+                "name": "Net Fixed Assets (PP&E)",
+                "unit": "$"
+              },
+              {
+                "id": "net-working-capital",
+                "name": "Net Working Capital",
+                "unit": "$"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economic-profit",
+        "name": "Economic Value Added (EVA)",
+        "unit": "$",
+        "children": [
+          {
+            "id": "roic-wacc-spread",
+            "name": "ROIC - WACC Spread",
+            "unit": "%"
+          },
+          {
+            "id": "wacc",
+            "name": "Weighted Avg Cost of Capital",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "profitability-cascade",
+    "name": "Profitability Cascade",
+    "children": [
+      {
+        "id": "roe",
+        "name": "ROE (Return on Equity)",
+        "unit": "%",
+        "children": [
+          {
+            "id": "roa",
+            "name": "ROA (Return on Assets)",
+            "unit": "%",
+            "children": [
+              {
+                "id": "net-profit-margin",
+                "name": "Net Profit Margin",
+                "unit": "%",
+                "children": [
+                  {
+                    "id": "ebitda-margin",
+                    "name": "EBITDA Margin",
+                    "unit": "%",
+                    "children": [
+                      {
+                        "id": "gross-margin",
+                        "name": "Gross Margin",
+                        "unit": "%"
+                      },
+                      {
+                        "id": "opex-ratio",
+                        "name": "OPEX as % of Revenue",
+                        "unit": "%"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "da-ratio",
+                    "name": "D&A as % of Revenue",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "interest-ratio",
+                    "name": "Interest as % of Revenue",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "tax-ratio",
+                    "name": "Tax as % of Revenue",
+                    "unit": "%",
+                    "esg": "G"
+                  }
+                ]
+              },
+              {
+                "id": "asset-turnover",
+                "name": "Asset Turnover",
+                "unit": "x",
+                "children": [
+                  {
+                    "id": "fixed-asset-turnover",
+                    "name": "Fixed Asset Turnover",
+                    "unit": "x"
+                  },
+                  {
+                    "id": "working-cap-turnover",
+                    "name": "Working Capital Turnover",
+                    "unit": "x"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "equity-multiplier",
+            "name": "Equity Multiplier (Leverage)",
+            "unit": "x",
+            "children": [
+              {
+                "id": "debt-equity",
+                "name": "Debt to Equity Ratio",
+                "unit": "ratio"
+              },
+              {
+                "id": "debt-assets",
+                "name": "Debt to Assets Ratio",
+                "unit": "ratio"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "income-statement",
+    "name": "Income Statement",
+    "children": [
+      {
+        "id": "revenue",
+        "name": "Total Revenue",
+        "unit": "$",
+        "children": [
+          {
+            "id": "ob-revenue",
+            "name": "OB Removal Revenue",
+            "unit": "$",
+            "children": [
+              {
+                "id": "ob-rate-components",
+                "name": "Rate Components",
+                "children": [
+                  {
+                    "id": "ob-base-rate",
+                    "name": "Base Rate",
+                    "unit": "$/BCM"
+                  },
+                  {
+                    "id": "ob-escalation",
+                    "name": "Escalation Adjustment",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "ob-distance-adj",
+                    "name": "Distance Adjustment",
+                    "unit": "$/BCM/100m"
+                  },
+                  {
+                    "id": "ob-other-adj",
+                    "name": "Other Adjustments",
+                    "unit": "$/BCM"
+                  }
+                ]
+              },
+              {
+                "id": "ob-volume-components",
+                "name": "Volume Components",
+                "children": [
+                  {
+                    "id": "ob-volume-achieved",
+                    "name": "Volume Achieved",
+                    "unit": "BCM"
+                  },
+                  {
+                    "id": "ob-volume-target",
+                    "name": "Volume Target",
+                    "unit": "BCM"
+                  },
+                  {
+                    "id": "ob-volume-variance",
+                    "name": "Volume Variance",
+                    "unit": "%"
+                  }
+                ]
+              },
+              {
+                "id": "ob-avg-realized-rate",
+                "name": "Average Realized Rate",
+                "unit": "$/BCM"
+              }
+            ]
+          },
+          {
+            "id": "coal-revenue",
+            "name": "Coal Getting Revenue",
+            "unit": "$",
+            "children": [
+              {
+                "id": "coal-rate-components",
+                "name": "Rate Components",
+                "children": [
+                  {
+                    "id": "coal-base-rate",
+                    "name": "Base Rate",
+                    "unit": "$/Ton"
+                  },
+                  {
+                    "id": "coal-cv-adj",
+                    "name": "CV Adjustment",
+                    "unit": "$/Ton"
+                  },
+                  {
+                    "id": "coal-quality-adj",
+                    "name": "Quality Adjustments",
+                    "unit": "$/Ton"
+                  }
+                ]
+              },
+              {
+                "id": "coal-volume-components",
+                "name": "Volume Components",
+                "children": [
+                  {
+                    "id": "coal-volume-achieved",
+                    "name": "Volume Achieved",
+                    "unit": "Tons"
+                  },
+                  {
+                    "id": "coal-volume-target",
+                    "name": "Volume Target",
+                    "unit": "Tons"
+                  },
+                  {
+                    "id": "coal-volume-variance",
+                    "name": "Volume Variance",
+                    "unit": "%"
+                  }
+                ]
+              },
+              {
+                "id": "coal-avg-realized-rate",
+                "name": "Average Realized Rate",
+                "unit": "$/Ton"
+              }
+            ]
+          },
+          {
+            "id": "other-revenue",
+            "name": "Other Revenue",
+            "unit": "$",
+            "children": [
+              {
+                "id": "change-order-revenue",
+                "name": "Change Orders",
+                "unit": "$"
+              },
+              {
+                "id": "ancillary-services",
+                "name": "Ancillary Services",
+                "unit": "$"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gross-profit",
+        "name": "Gross Profit",
+        "unit": "$",
+        "children": [
+          {
+            "id": "direct-costs",
+            "name": "Direct Operating Costs",
+            "unit": "$",
+            "children": [
+              {
+                "id": "fuel-costs",
+                "name": "Fuel Costs",
+                "unit": "$",
+                "esg": "E",
+                "scope": 1,
+                "children": [
+                  {
+                    "id": "fuel-volume",
+                    "name": "Fuel Volume",
+                    "unit": "Liters",
+                    "esg": "E",
+                    "scope": 1
+                  },
+                  {
+                    "id": "fuel-price",
+                    "name": "Fuel Price",
+                    "unit": "$/Liter"
+                  },
+                  {
+                    "id": "fuel-efficiency",
+                    "name": "Fuel Efficiency",
+                    "unit": "L/BCM",
+                    "esg": "E",
+                    "scope": 1
+                  }
+                ]
+              },
+              {
+                "id": "labor-costs",
+                "name": "Labor Costs",
+                "unit": "$",
+                "esg": "S",
+                "children": [
+                  {
+                    "id": "direct-labor",
+                    "name": "Direct Labor",
+                    "unit": "$",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "base-salary",
+                        "name": "Base Salary",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "position-allowance",
+                        "name": "Position Allowance",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "skill-allowance",
+                        "name": "Skill Allowance",
+                        "unit": "$",
+                        "esg": "S"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "overtime-costs",
+                    "name": "Overtime Costs",
+                    "unit": "$",
+                    "esg": "S"
+                  },
+                  {
+                    "id": "benefits-costs",
+                    "name": "Benefits & Allowances",
+                    "unit": "$",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "housing-allowance",
+                        "name": "Housing Allowance",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "meal-allowance",
+                        "name": "Meal Allowance",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "transport-allowance",
+                        "name": "Transport Allowance",
+                        "unit": "$",
+                        "esg": "S"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "statutory-contributions",
+                    "name": "Statutory Contributions (ID: Jamsostek)",
+                    "unit": "$",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "jkk-jkm",
+                        "name": "Work Accident & Death Insurance (JKK/JKM)",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "jht",
+                        "name": "Old Age Security (JHT)",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "pension-fund",
+                        "name": "Pension Fund",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "health-insurance",
+                        "name": "Health Insurance (BPJS)",
+                        "unit": "$",
+                        "esg": "S"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "irregular-compensation",
+                    "name": "Irregular Compensation",
+                    "unit": "$",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "thr",
+                        "name": "Religious Holiday Bonus (THR)",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "annual-bonus",
+                        "name": "Annual Bonus",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "incentives",
+                        "name": "Performance Incentives",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "severance-provision",
+                        "name": "Severance Provision",
+                        "unit": "$",
+                        "esg": "S"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hr-development",
+                    "name": "HR Development",
+                    "unit": "$",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "training-cost",
+                        "name": "Training & Certification",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "recruitment-cost",
+                        "name": "Recruitment Costs",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "employee-welfare",
+                        "name": "Employee Welfare",
+                        "unit": "$",
+                        "esg": "S"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "maintenance-costs",
+                "name": "Maintenance Costs",
+                "unit": "$",
+                "children": [
+                  {
+                    "id": "pm-maintenance",
+                    "name": "Scheduled Maintenance (PM)",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "pm-service-250hr",
+                        "name": "250hr Service",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "pm-service-500hr",
+                        "name": "500hr Service",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "pm-service-1000hr",
+                        "name": "1000hr Service",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "pm-service-2000hr",
+                        "name": "2000hr Service",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "parts-costs",
+                    "name": "Parts & Materials",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "spare-parts",
+                        "name": "Spare Parts",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "workshop-supplies",
+                        "name": "Workshop Supplies",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "electrical-consumables",
+                        "name": "Electrical Consumables",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "filters",
+                        "name": "Filters",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "lubricant-costs",
+                    "name": "Lubricants & Grease",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "engine-oil",
+                        "name": "Engine Oil",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "hydraulic-oil",
+                        "name": "Hydraulic Oil",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "transmission-oil",
+                        "name": "Transmission Oil",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "grease",
+                        "name": "Grease",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "coolant",
+                        "name": "Coolant",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "maint-labor",
+                    "name": "Maintenance Labor",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "internal-maint-labor",
+                        "name": "Internal Labor",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "labor-supply",
+                        "name": "Labor Supply (Contract)",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "contractor-maint",
+                    "name": "External Services",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "fmc-contract",
+                        "name": "Full Maintenance Contract (FMC)",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "service-contract",
+                        "name": "Service Contracts",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "external-repair",
+                        "name": "External Repair Services",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "component-overhaul",
+                    "name": "Component Overhaul (PCR)",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "engine-overhaul-cost",
+                        "name": "Engine Overhaul",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "transmission-overhaul-cost",
+                        "name": "Transmission Overhaul",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "final-drive-overhaul-cost",
+                        "name": "Final Drive Overhaul",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "hydraulic-overhaul-cost",
+                        "name": "Hydraulic System Overhaul",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tyre-costs",
+                    "name": "Tyre Costs",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "tyre-purchase",
+                        "name": "New Tyre Purchase",
+                        "unit": "$",
+                        "children": [
+                          {
+                            "id": "tyre-price-brand",
+                            "name": "By Brand/Manufacturer",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "tyre-price-size",
+                            "name": "By Size",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "tyre-price-pattern",
+                            "name": "By Pattern",
+                            "unit": "$"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tyre-retread-cost",
+                        "name": "Retread Cost",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "tyre-repair-cost",
+                        "name": "Repair Cost",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "rim-wheel-cost",
+                        "name": "Rim/Wheel & Components",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "get-costs",
+                    "name": "GET (Ground Engaging Tools)",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "teeth-adapters",
+                        "name": "Teeth & Adapters",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "cutting-edges",
+                        "name": "Cutting Edges",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "wear-plates",
+                        "name": "Wear Plates",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "bucket-lips",
+                        "name": "Bucket Lips",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "undercarriage-costs",
+                    "name": "Undercarriage (Tracked Equipment)",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "track-shoes",
+                        "name": "Track Shoes",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "rollers-idlers",
+                        "name": "Rollers & Idlers",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "sprockets",
+                        "name": "Sprockets",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "track-links",
+                        "name": "Track Links",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buckets-bodies",
+                    "name": "Buckets & Bodies",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "bucket-repair",
+                        "name": "Bucket Repair",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "body-liner",
+                        "name": "Body Liner",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "body-floor-plate",
+                        "name": "Body Floor Plate",
+                        "unit": "$"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "equipment-costs",
+                "name": "Equipment Costs",
+                "unit": "$",
+                "children": [
+                  {
+                    "id": "depreciation",
+                    "name": "Depreciation",
+                    "unit": "$"
+                  },
+                  {
+                    "id": "lease-costs",
+                    "name": "Lease/Rental Costs",
+                    "unit": "$"
+                  },
+                  {
+                    "id": "insurance-equip",
+                    "name": "Equipment Insurance",
+                    "unit": "$"
+                  }
+                ]
+              },
+              {
+                "id": "consumables",
+                "name": "Consumables & Supplies",
+                "unit": "$",
+                "children": [
+                  {
+                    "id": "drilling-costs",
+                    "name": "Drilling Costs",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "drill-bit-cost",
+                        "name": "Drill Bits",
+                        "unit": "$",
+                        "children": [
+                          {
+                            "id": "drill-bit-price",
+                            "name": "Bit Price (by brand/type)",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "drill-bit-consumption",
+                            "name": "Bit Consumption",
+                            "unit": "$"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "drill-rod-cost",
+                        "name": "Drill Rods",
+                        "unit": "$",
+                        "children": [
+                          {
+                            "id": "drill-rod-price",
+                            "name": "Rod Price",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "drill-rod-consumption",
+                            "name": "Rod Consumption",
+                            "unit": "$"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "drill-accessories",
+                        "name": "Drilling Accessories",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "blasting-costs",
+                    "name": "Blasting Costs",
+                    "unit": "$",
+                    "esg": "E",
+                    "scope": 1,
+                    "children": [
+                      {
+                        "id": "explosives-materials",
+                        "name": "Explosive Materials",
+                        "unit": "$",
+                        "esg": "E",
+                        "scope": 1,
+                        "children": [
+                          {
+                            "id": "ammonium-nitrate",
+                            "name": "Ammonium Nitrate (AN)",
+                            "unit": "$",
+                            "esg": "E",
+                            "scope": 1
+                          },
+                          {
+                            "id": "emulsion",
+                            "name": "Emulsion",
+                            "unit": "$",
+                            "esg": "E",
+                            "scope": 1
+                          },
+                          {
+                            "id": "anfo",
+                            "name": "ANFO",
+                            "unit": "$",
+                            "esg": "E",
+                            "scope": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": "initiation-systems",
+                        "name": "Initiation Systems",
+                        "unit": "$",
+                        "children": [
+                          {
+                            "id": "detonators",
+                            "name": "Detonators (Electronic/Non-El)",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "boosters",
+                            "name": "Boosters",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "det-cord",
+                            "name": "Detonating Cord",
+                            "unit": "$"
+                          },
+                          {
+                            "id": "primers",
+                            "name": "Primers/Cartridges",
+                            "unit": "$"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "stemming-material",
+                        "name": "Stemming Material",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "blasting-services",
+                        "name": "Blasting Services",
+                        "unit": "$"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "other-consumables",
+                    "name": "Other Consumables",
+                    "unit": "$",
+                    "children": [
+                      {
+                        "id": "welding-supplies",
+                        "name": "Welding Supplies",
+                        "unit": "$"
+                      },
+                      {
+                        "id": "safety-consumables",
+                        "name": "Safety Consumables",
+                        "unit": "$",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "cleaning-supplies",
+                        "name": "Cleaning Supplies",
+                        "unit": "$"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ebitda",
+        "name": "EBITDA",
+        "unit": "$",
+        "children": [
+          {
+            "id": "indirect-costs",
+            "name": "Indirect/Overhead Costs",
+            "unit": "$",
+            "children": [
+              {
+                "id": "site-overhead",
+                "name": "Site Overhead",
+                "unit": "$"
+              },
+              {
+                "id": "camp-costs",
+                "name": "Camp & Accommodation",
+                "unit": "$",
+                "esg": "S"
+              },
+              {
+                "id": "admin-costs",
+                "name": "Administration",
+                "unit": "$"
+              },
+              {
+                "id": "hse-costs",
+                "name": "HSE Costs",
+                "unit": "$",
+                "esg": "S"
+              },
+              {
+                "id": "it-costs",
+                "name": "IT & Communications",
+                "unit": "$"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ebit",
+        "name": "EBIT (Operating Profit)",
+        "unit": "$",
+        "children": [
+          {
+            "id": "depreciation-total",
+            "name": "Depreciation",
+            "unit": "$"
+          },
+          {
+            "id": "amortization",
+            "name": "Amortization",
+            "unit": "$"
+          }
+        ]
+      },
+      {
+        "id": "net-income",
+        "name": "Net Income",
+        "unit": "$",
+        "children": [
+          {
+            "id": "interest-expense",
+            "name": "Interest Expense",
+            "unit": "$"
+          },
+          {
+            "id": "interest-income",
+            "name": "Interest Income",
+            "unit": "$"
+          },
+          {
+            "id": "tax-expense",
+            "name": "Tax Expense",
+            "unit": "$",
+            "esg": "G"
+          },
+          {
+            "id": "other-income-expense",
+            "name": "Other Income/Expense",
+            "unit": "$"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit-economics",
+    "name": "Unit Economics",
+    "children": [
+      {
+        "id": "revenue-per-unit",
+        "name": "Revenue per Unit",
+        "children": [
+          {
+            "id": "revenue-per-bcm",
+            "name": "Revenue per BCM",
+            "unit": "$/BCM"
+          },
+          {
+            "id": "revenue-per-ton",
+            "name": "Revenue per Ton",
+            "unit": "$/ton"
+          },
+          {
+            "id": "revenue-per-hour",
+            "name": "Revenue per Operating Hour",
+            "unit": "$/hr"
+          }
+        ]
+      },
+      {
+        "id": "cost-per-unit",
+        "name": "Cost per Unit",
+        "children": [
+          {
+            "id": "cost-per-bcm-detail",
+            "name": "Cost per BCM (Breakdown)",
+            "unit": "$/BCM",
+            "children": [
+              {
+                "id": "fuel-cost-bcm",
+                "name": "Fuel Cost",
+                "unit": "$/BCM",
+                "esg": "E",
+                "scope": 1
+              },
+              {
+                "id": "labor-cost-bcm",
+                "name": "Labor Cost",
+                "unit": "$/BCM",
+                "esg": "S"
+              },
+              {
+                "id": "maint-cost-bcm",
+                "name": "Maintenance Cost",
+                "unit": "$/BCM"
+              },
+              {
+                "id": "equip-cost-bcm",
+                "name": "Equipment Cost",
+                "unit": "$/BCM"
+              },
+              {
+                "id": "overhead-cost-bcm",
+                "name": "Overhead Cost",
+                "unit": "$/BCM"
+              }
+            ]
+          },
+          {
+            "id": "cost-per-ton",
+            "name": "Cost per Ton (Coal)",
+            "unit": "$/ton"
+          },
+          {
+            "id": "cost-per-hour",
+            "name": "Cost per Operating Hour",
+            "unit": "$/hr"
+          }
+        ]
+      },
+      {
+        "id": "margin-per-unit",
+        "name": "Margin per Unit",
+        "children": [
+          {
+            "id": "margin-per-bcm",
+            "name": "Gross Margin per BCM",
+            "unit": "$/BCM"
+          },
+          {
+            "id": "margin-per-ton",
+            "name": "Gross Margin per Ton",
+            "unit": "$/ton"
+          },
+          {
+            "id": "contribution-margin-bcm",
+            "name": "Contribution Margin per BCM",
+            "unit": "$/BCM"
+          }
+        ]
+      },
+      {
+        "id": "aisc",
+        "name": "All-in Sustaining Cost (AISC)",
+        "unit": "$/BCM",
+        "children": [
+          {
+            "id": "cash-cost",
+            "name": "Cash Operating Cost",
+            "unit": "$/BCM"
+          },
+          {
+            "id": "sustaining-capex-unit",
+            "name": "Sustaining CAPEX per BCM",
+            "unit": "$/BCM"
+          },
+          {
+            "id": "corporate-overhead-unit",
+            "name": "Corporate Overhead per BCM",
+            "unit": "$/BCM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cash-flow",
+    "name": "Cash Flow",
+    "children": [
+      {
+        "id": "ocf",
+        "name": "Operating Cash Flow",
+        "unit": "$",
+        "children": [
+          {
+            "id": "ocf-net-income",
+            "name": "Net Income",
+            "unit": "$"
+          },
+          {
+            "id": "non-cash-adj",
+            "name": "Non-Cash Adjustments",
+            "children": [
+              {
+                "id": "add-depreciation",
+                "name": "+ Depreciation",
+                "unit": "$"
+              },
+              {
+                "id": "add-amortization",
+                "name": "+ Amortization",
+                "unit": "$"
+              },
+              {
+                "id": "other-non-cash",
+                "name": "± Other Non-Cash Items",
+                "unit": "$"
+              }
+            ]
+          },
+          {
+            "id": "working-cap-changes",
+            "name": "Working Capital Changes",
+            "children": [
+              {
+                "id": "ar-change",
+                "name": "Δ Accounts Receivable",
+                "unit": "$"
+              },
+              {
+                "id": "inventory-change",
+                "name": "Δ Inventory",
+                "unit": "$"
+              },
+              {
+                "id": "ap-change",
+                "name": "Δ Accounts Payable",
+                "unit": "$"
+              },
+              {
+                "id": "other-wc-change",
+                "name": "Δ Other Working Capital",
+                "unit": "$"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fcf",
+        "name": "Free Cash Flow",
+        "unit": "$",
+        "children": [
+          {
+            "id": "capex",
+            "name": "Capital Expenditures",
+            "unit": "$",
+            "children": [
+              {
+                "id": "sustaining-capex",
+                "name": "Sustaining CAPEX",
+                "unit": "$"
+              },
+              {
+                "id": "growth-capex",
+                "name": "Growth CAPEX",
+                "unit": "$"
+              },
+              {
+                "id": "replacement-capex",
+                "name": "Replacement CAPEX",
+                "unit": "$"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fcfe",
+        "name": "Free Cash Flow to Equity",
+        "unit": "$",
+        "children": [
+          {
+            "id": "debt-repayment",
+            "name": "Debt Repayment",
+            "unit": "$"
+          },
+          {
+            "id": "new-borrowings",
+            "name": "New Borrowings",
+            "unit": "$"
+          },
+          {
+            "id": "interest-paid",
+            "name": "Interest Paid",
+            "unit": "$"
+          }
+        ]
+      },
+      {
+        "id": "cash-ratios",
+        "name": "Cash Flow Ratios",
+        "children": [
+          {
+            "id": "ocf-margin",
+            "name": "OCF Margin",
+            "unit": "%"
+          },
+          {
+            "id": "fcf-margin",
+            "name": "FCF Margin",
+            "unit": "%"
+          },
+          {
+            "id": "fcf-yield",
+            "name": "FCF Yield",
+            "unit": "%"
+          },
+          {
+            "id": "cash-conversion",
+            "name": "Cash Conversion Ratio",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liquidity",
+    "name": "Liquidity & Working Capital",
+    "children": [
+      {
+        "id": "liquidity-ratios",
+        "name": "Liquidity Ratios",
+        "esg": "G",
+        "children": [
+          {
+            "id": "current-ratio",
+            "name": "Current Ratio",
+            "unit": "x",
+            "esg": "G"
+          },
+          {
+            "id": "quick-ratio",
+            "name": "Quick Ratio",
+            "unit": "x",
+            "esg": "G"
+          },
+          {
+            "id": "cash-ratio",
+            "name": "Cash Ratio",
+            "unit": "x",
+            "esg": "G"
+          }
+        ]
+      },
+      {
+        "id": "cash-conversion-cycle",
+        "name": "Cash Conversion Cycle",
+        "unit": "days",
+        "children": [
+          {
+            "id": "dso",
+            "name": "Days Sales Outstanding",
+            "unit": "days",
+            "esg": "G"
+          },
+          {
+            "id": "dio",
+            "name": "Days Inventory Outstanding",
+            "unit": "days"
+          },
+          {
+            "id": "dpo",
+            "name": "Days Payables Outstanding",
+            "unit": "days"
+          }
+        ]
+      },
+      {
+        "id": "working-capital-detail",
+        "name": "Working Capital Detail",
+        "children": [
+          {
+            "id": "wc-absolute",
+            "name": "Working Capital (Absolute)",
+            "unit": "$"
+          },
+          {
+            "id": "wc-pct-revenue",
+            "name": "Working Capital % Revenue",
+            "unit": "%"
+          },
+          {
+            "id": "wc-turnover",
+            "name": "Working Capital Turnover",
+            "unit": "x"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leverage",
+    "name": "Leverage & Capital Structure",
+    "esg": "G",
+    "children": [
+      {
+        "id": "debt-metrics",
+        "name": "Debt Metrics",
+        "esg": "G",
+        "children": [
+          {
+            "id": "total-debt",
+            "name": "Total Debt",
+            "unit": "$"
+          },
+          {
+            "id": "net-debt",
+            "name": "Net Debt",
+            "unit": "$"
+          },
+          {
+            "id": "net-debt-ebitda",
+            "name": "Net Debt / EBITDA",
+            "unit": "x",
+            "esg": "G"
+          },
+          {
+            "id": "debt-capital",
+            "name": "Debt / Total Capital",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "coverage-ratios",
+        "name": "Coverage Ratios",
+        "esg": "G",
+        "children": [
+          {
+            "id": "interest-coverage",
+            "name": "Interest Coverage",
+            "unit": "x"
+          },
+          {
+            "id": "dscr",
+            "name": "Debt Service Coverage Ratio",
+            "unit": "x",
+            "esg": "G"
+          },
+          {
+            "id": "fixed-charge-coverage",
+            "name": "Fixed Charge Coverage",
+            "unit": "x"
+          }
+        ]
+      },
+      {
+        "id": "capital-structure",
+        "name": "Capital Structure",
+        "children": [
+          {
+            "id": "equity-pct",
+            "name": "Equity %",
+            "unit": "%"
+          },
+          {
+            "id": "debt-pct",
+            "name": "Debt %",
+            "unit": "%"
+          },
+          {
+            "id": "cost-of-debt",
+            "name": "Cost of Debt",
+            "unit": "%"
+          },
+          {
+            "id": "cost-of-equity",
+            "name": "Cost of Equity",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "contract-commercial",
+    "name": "Contract & Commercial",
+    "esg": "G",
+    "children": [
+      {
+        "id": "backlog",
+        "name": "Revenue Backlog",
+        "esg": "G",
+        "children": [
+          {
+            "id": "backlog-total",
+            "name": "Total Backlog",
+            "unit": "$",
+            "esg": "G"
+          },
+          {
+            "id": "backlog-12m",
+            "name": "Secured (12 months)",
+            "unit": "$",
+            "esg": "G"
+          },
+          {
+            "id": "backlog-24m",
+            "name": "Secured (24 months)",
+            "unit": "$",
+            "esg": "G"
+          },
+          {
+            "id": "backlog-ratio",
+            "name": "Backlog / Revenue",
+            "unit": "x",
+            "esg": "G"
+          }
+        ]
+      },
+      {
+        "id": "contract-metrics",
+        "name": "Contract Metrics",
+        "children": [
+          {
+            "id": "contract-book",
+            "name": "Contract Book Value",
+            "unit": "$",
+            "esg": "G"
+          },
+          {
+            "id": "avg-contract-duration",
+            "name": "Avg Contract Duration",
+            "unit": "months"
+          },
+          {
+            "id": "contract-renewal-rate",
+            "name": "Contract Renewal Rate",
+            "unit": "%",
+            "esg": "G"
+          },
+          {
+            "id": "win-rate",
+            "name": "Bid Win Rate",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "rate-realization",
+        "name": "Rate Realization",
+        "children": [
+          {
+            "id": "rate-realization-pct",
+            "name": "Rate Realization %",
+            "unit": "%"
+          },
+          {
+            "id": "escalation-value",
+            "name": "Escalation Value Captured",
+            "unit": "$/year"
+          },
+          {
+            "id": "rate-vs-market",
+            "name": "Rate vs Market Benchmark",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "concentration-risk",
+        "name": "Concentration Risk",
+        "esg": "G",
+        "children": [
+          {
+            "id": "top-client-pct",
+            "name": "Top Client %",
+            "unit": "%",
+            "esg": "G"
+          },
+          {
+            "id": "top3-clients-pct",
+            "name": "Top 3 Clients %",
+            "unit": "%",
+            "esg": "G"
+          },
+          {
+            "id": "hhi-index",
+            "name": "Customer HHI Index",
+            "unit": "index",
+            "esg": "G"
+          }
+        ]
+      },
+      {
+        "id": "contractor-specific",
+        "name": "Contractor Specific",
+        "children": [
+          {
+            "id": "bonding-capacity",
+            "name": "Bonding Capacity Used",
+            "unit": "%",
+            "esg": "G"
+          },
+          {
+            "id": "retainage",
+            "name": "Retainage Held",
+            "unit": "$"
+          },
+          {
+            "id": "warranty-reserve",
+            "name": "Warranty Reserve",
+            "unit": "$",
+            "esg": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variance-analysis",
+    "name": "Variance & Performance",
+    "children": [
+      {
+        "id": "budget-variance",
+        "name": "Budget vs Actual",
+        "children": [
+          {
+            "id": "revenue-variance",
+            "name": "Revenue Variance",
+            "children": [
+              {
+                "id": "volume-variance",
+                "name": "Volume Variance",
+                "unit": "$"
+              },
+              {
+                "id": "price-variance",
+                "name": "Price/Rate Variance",
+                "unit": "$"
+              },
+              {
+                "id": "mix-variance",
+                "name": "Mix Variance",
+                "unit": "$"
+              }
+            ]
+          },
+          {
+            "id": "cost-variance",
+            "name": "Cost Variance",
+            "children": [
+              {
+                "id": "fuel-variance",
+                "name": "Fuel Variance",
+                "unit": "$",
+                "esg": "E",
+                "scope": 1
+              },
+              {
+                "id": "labor-variance",
+                "name": "Labor Variance",
+                "unit": "$",
+                "esg": "S"
+              },
+              {
+                "id": "maint-variance",
+                "name": "Maintenance Variance",
+                "unit": "$"
+              },
+              {
+                "id": "overhead-variance",
+                "name": "Overhead Variance",
+                "unit": "$"
+              }
+            ]
+          },
+          {
+            "id": "profit-variance",
+            "name": "Profit Variance",
+            "children": [
+              {
+                "id": "gross-profit-var",
+                "name": "Gross Profit Variance",
+                "unit": "$"
+              },
+              {
+                "id": "ebitda-var",
+                "name": "EBITDA Variance",
+                "unit": "$"
+              },
+              {
+                "id": "net-income-var",
+                "name": "Net Income Variance",
+                "unit": "$"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "earned-value",
+        "name": "Earned Value Management",
+        "esg": "G",
+        "children": [
+          {
+            "id": "planned-value",
+            "name": "Planned Value (PV)",
+            "unit": "$"
+          },
+          {
+            "id": "earned-value-val",
+            "name": "Earned Value (EV)",
+            "unit": "$"
+          },
+          {
+            "id": "actual-cost",
+            "name": "Actual Cost (AC)",
+            "unit": "$"
+          },
+          {
+            "id": "cpi",
+            "name": "Cost Performance Index",
+            "unit": "ratio",
+            "esg": "G"
+          },
+          {
+            "id": "spi",
+            "name": "Schedule Performance Index",
+            "unit": "ratio",
+            "esg": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "risk-sensitivity",
+    "name": "Risk & Sensitivity",
+    "children": [
+      {
+        "id": "sensitivity-analysis",
+        "name": "Sensitivity Analysis",
+        "children": [
+          {
+            "id": "fuel-sensitivity",
+            "name": "Fuel Price ±10%",
+            "unit": "$ EBITDA impact"
+          },
+          {
+            "id": "volume-sensitivity",
+            "name": "Volume -10%",
+            "unit": "$ EBITDA impact"
+          },
+          {
+            "id": "rate-sensitivity",
+            "name": "Rate -5%",
+            "unit": "$ EBITDA impact"
+          },
+          {
+            "id": "fx-sensitivity",
+            "name": "FX ±5%",
+            "unit": "$ EBITDA impact"
+          },
+          {
+            "id": "labor-sensitivity",
+            "name": "Labor Cost +10%",
+            "unit": "$ EBITDA impact",
+            "esg": "S"
+          }
+        ]
+      },
+      {
+        "id": "breakeven-analysis",
+        "name": "Break-Even Analysis",
+        "children": [
+          {
+            "id": "breakeven-volume",
+            "name": "Break-Even Volume",
+            "unit": "BCM/month"
+          },
+          {
+            "id": "breakeven-utilization",
+            "name": "Break-Even Utilization",
+            "unit": "%"
+          },
+          {
+            "id": "margin-of-safety",
+            "name": "Margin of Safety",
+            "unit": "%"
+          },
+          {
+            "id": "operating-leverage",
+            "name": "Operating Leverage",
+            "unit": "x"
+          }
+        ]
+      },
+      {
+        "id": "scenario-analysis",
+        "name": "Scenario Analysis",
+        "children": [
+          {
+            "id": "base-case-ebitda",
+            "name": "Base Case EBITDA",
+            "unit": "$"
+          },
+          {
+            "id": "upside-case-ebitda",
+            "name": "Upside Case EBITDA",
+            "unit": "$"
+          },
+          {
+            "id": "downside-case-ebitda",
+            "name": "Downside Case EBITDA",
+            "unit": "$"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity Metrics",
+    "esg": "S",
+    "children": [
+      {
+        "id": "labor-productivity",
+        "name": "Labor Productivity",
+        "esg": "S",
+        "children": [
+          {
+            "id": "revenue-per-fte",
+            "name": "Revenue per FTE",
+            "unit": "$/FTE",
+            "esg": "S"
+          },
+          {
+            "id": "ebitda-per-fte",
+            "name": "EBITDA per FTE",
+            "unit": "$/FTE",
+            "esg": "S"
+          },
+          {
+            "id": "bcm-per-fte",
+            "name": "BCM per FTE",
+            "unit": "BCM/FTE",
+            "esg": "S"
+          },
+          {
+            "id": "labor-cost-pct",
+            "name": "Labor Cost %",
+            "unit": "%",
+            "esg": "S"
+          }
+        ]
+      },
+      {
+        "id": "asset-productivity",
+        "name": "Asset Productivity",
+        "children": [
+          {
+            "id": "revenue-per-asset",
+            "name": "Revenue per Equipment",
+            "unit": "$/unit"
+          },
+          {
+            "id": "ebitda-per-asset",
+            "name": "EBITDA per Equipment",
+            "unit": "$/unit"
+          },
+          {
+            "id": "bcm-per-asset",
+            "name": "BCM per Equipment",
+            "unit": "BCM/unit"
+          }
+        ]
+      }
+    ]
+  }
+]

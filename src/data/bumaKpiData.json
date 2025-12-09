@@ -1,0 +1,2838 @@
+[
+  {
+    "id": "buma-1",
+    "name": "EBITDA",
+    "children": [
+      {
+        "id": "buma-2",
+        "name": "Cash Cost",
+        "children": [
+          {
+            "id": "buma-3",
+            "name": "Employee Cost",
+            "esg": "S",
+            "children": [
+              {
+                "id": "buma-4",
+                "name": "Employee Compensation Cost",
+                "esg": "S",
+                "children": [
+                  {
+                    "id": "buma-5",
+                    "name": "Manpower",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "buma-6",
+                        "name": "BRL(BUMA Reference Level)"
+                      },
+                      {
+                        "id": "buma-7",
+                        "name": "Function"
+                      },
+                      {
+                        "id": "buma-8",
+                        "name": "CR (Compa-Ratio)"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-9",
+                    "name": "Regular Salary",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "buma-10",
+                        "name": "Salaries HCM"
+                      },
+                      {
+                        "id": "buma-11",
+                        "name": "Overtime"
+                      },
+                      {
+                        "id": "buma-12",
+                        "name": "Allowance"
+                      },
+                      {
+                        "id": "buma-13",
+                        "name": "Jamsostek(JKK&JKM)",
+                        "esg": "S"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-14",
+                    "name": "Irregular Salary",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "buma-15",
+                        "name": "Severance Pay",
+                        "children": [
+                          {
+                            "id": "buma-16",
+                            "name": "Resignation"
+                          },
+                          {
+                            "id": "buma-17",
+                            "name": "Severance Pay"
+                          },
+                          {
+                            "id": "buma-18",
+                            "name": "Final Tax Severance Pay"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-19",
+                        "name": "Incentives"
+                      },
+                      {
+                        "id": "buma-20",
+                        "name": "Bonus"
+                      },
+                      {
+                        "id": "buma-21",
+                        "name": "THR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-22",
+                "name": "Cost Initiatives",
+                "children": [
+                  {
+                    "id": "buma-23",
+                    "name": "HCM"
+                  },
+                  {
+                    "id": "buma-24",
+                    "name": "GA"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-25",
+            "name": "Tyre Cost",
+            "children": [
+              {
+                "id": "buma-26",
+                "name": "Tyre Consumption Cost",
+                "children": [
+                  {
+                    "id": "buma-27",
+                    "name": "Price",
+                    "children": [
+                      {
+                        "id": "buma-28",
+                        "name": "Tyre Brand/Manufacture"
+                      },
+                      {
+                        "id": "buma-29",
+                        "name": "Tyre Size"
+                      },
+                      {
+                        "id": "buma-30",
+                        "name": "Tyre Pattern"
+                      },
+                      {
+                        "id": "buma-31",
+                        "name": "Tyre Spec"
+                      },
+                      {
+                        "id": "buma-32",
+                        "name": "Strategi Pembelian"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-33",
+                    "name": "Consumption",
+                    "children": [
+                      {
+                        "id": "buma-34",
+                        "name": "Tyre Usage",
+                        "children": [
+                          {
+                            "id": "buma-35",
+                            "name": "Tyre Lifetime",
+                            "children": [
+                              {
+                                "id": "buma-36",
+                                "name": "Tyre Pressure Performance"
+                              },
+                              {
+                                "id": "buma-37",
+                                "name": "Road Hazard"
+                              },
+                              {
+                                "id": "buma-38",
+                                "name": "Tyre Environment Inspection"
+                              },
+                              {
+                                "id": "buma-39",
+                                "name": "Tyre Repair Life Performance"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-40",
+                        "name": "Tyre Retread Life Performance"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-41",
+                    "name": "Retread Cost"
+                  },
+                  {
+                    "id": "buma-42",
+                    "name": "Repair Cost"
+                  }
+                ]
+              },
+              {
+                "id": "buma-43",
+                "name": "Non Assets Tools & Accessories"
+              },
+              {
+                "id": "buma-44",
+                "name": "Rim/Wheel & Component"
+              },
+              {
+                "id": "buma-45",
+                "name": "Others"
+              }
+            ]
+          },
+          {
+            "id": "buma-46",
+            "name": "Drilling & Blasting",
+            "esg": "E",
+            "scope": 1,
+            "children": [
+              {
+                "id": "buma-47",
+                "name": "Drilling",
+                "children": [
+                  {
+                    "id": "buma-48",
+                    "name": "Drill Bit Cost",
+                    "children": [
+                      {
+                        "id": "buma-49",
+                        "name": "Price",
+                        "children": [
+                          {
+                            "id": "buma-50",
+                            "name": "Brand/Type of Bit",
+                            "children": [
+                              {
+                                "id": "buma-51",
+                                "name": "Litologi Batuan"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-52",
+                            "name": "Strategy Pembelian"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-53",
+                        "name": "Consumption",
+                        "children": [
+                          {
+                            "id": "buma-54",
+                            "name": "Bit Lifetime",
+                            "children": [
+                              {
+                                "id": "buma-55",
+                                "name": "Pareto Problem"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-56",
+                            "name": "Total Meter Target",
+                            "children": [
+                              {
+                                "id": "buma-57",
+                                "name": "Number of Holes"
+                              },
+                              {
+                                "id": "buma-58",
+                                "name": "Blasted Volume"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-59",
+                    "name": "Drill Rod Cost",
+                    "children": [
+                      {
+                        "id": "buma-60",
+                        "name": "Price",
+                        "children": [
+                          {
+                            "id": "buma-61",
+                            "name": "Brand/Type of Bit",
+                            "children": [
+                              {
+                                "id": "buma-62",
+                                "name": "Litologi Batuan"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-63",
+                            "name": "Strategy Pembelian"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-64",
+                        "name": "Consumption",
+                        "children": [
+                          {
+                            "id": "buma-65",
+                            "name": "Bit Lifetime",
+                            "children": [
+                              {
+                                "id": "buma-66",
+                                "name": "Pareto Problem"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-67",
+                            "name": "Total Meter Target",
+                            "children": [
+                              {
+                                "id": "buma-68",
+                                "name": "Number of Holes"
+                              },
+                              {
+                                "id": "buma-69",
+                                "name": "Blasted Volume"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-70",
+                "name": "Blasting",
+                "esg": "E",
+                "scope": 1,
+                "children": [
+                  {
+                    "id": "buma-71",
+                    "name": "Material",
+                    "children": [
+                      {
+                        "id": "buma-72",
+                        "name": "Amonium Nitrat",
+                        "esg": "E",
+                        "scope": 1,
+                        "children": [
+                          {
+                            "id": "buma-73",
+                            "name": "Price",
+                            "children": [
+                              {
+                                "id": "buma-74",
+                                "name": "Type of AN",
+                                "children": [
+                                  {
+                                    "id": "buma-75",
+                                    "name": "Formulasi manufaktur"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-76",
+                                "name": "Strategy Pembelian",
+                                "children": [
+                                  {
+                                    "id": "buma-77",
+                                    "name": "Import/Local"
+                                  },
+                                  {
+                                    "id": "buma-78",
+                                    "name": "Warehousing"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-79",
+                            "name": "Consumption",
+                            "children": [
+                              {
+                                "id": "buma-80",
+                                "name": "Powder Factor",
+                                "children": [
+                                  {
+                                    "id": "buma-81",
+                                    "name": "Litologi"
+                                  },
+                                  {
+                                    "id": "buma-82",
+                                    "name": "Formulasi %AN"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-83",
+                                "name": "Number of Holes"
+                              },
+                              {
+                                "id": "buma-84",
+                                "name": "Blasted Volume"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-85",
+                        "name": "Emultion",
+                        "esg": "E",
+                        "scope": 1,
+                        "children": [
+                          {
+                            "id": "buma-86",
+                            "name": "Price",
+                            "children": [
+                              {
+                                "id": "buma-87",
+                                "name": "Type of Emultion",
+                                "children": [
+                                  {
+                                    "id": "buma-88",
+                                    "name": "Formulasi manufaktur"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-89",
+                                "name": "Invesment Cost"
+                              },
+                              {
+                                "id": "buma-90",
+                                "name": "Bahan Kimia"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-91",
+                            "name": "Consumption",
+                            "children": [
+                              {
+                                "id": "buma-92",
+                                "name": "Powder Factor",
+                                "children": [
+                                  {
+                                    "id": "buma-93",
+                                    "name": "Litologi"
+                                  },
+                                  {
+                                    "id": "buma-94",
+                                    "name": "Formulasi %AN"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-95",
+                                "name": "Number of Holes"
+                              },
+                              {
+                                "id": "buma-96",
+                                "name": "Blasted Volume"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-97",
+                        "name": "Acc Detonator",
+                        "children": [
+                          {
+                            "id": "buma-98",
+                            "name": "Price",
+                            "children": [
+                              {
+                                "id": "buma-99",
+                                "name": "Type of Detonator",
+                                "children": [
+                                  {
+                                    "id": "buma-100",
+                                    "name": "Accuracy Delay"
+                                  },
+                                  {
+                                    "id": "buma-101",
+                                    "name": "Fragmentasi"
+                                  },
+                                  {
+                                    "id": "buma-102",
+                                    "name": "Suhu"
+                                  },
+                                  {
+                                    "id": "buma-103",
+                                    "name": "Gas Methan"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-104",
+                                "name": "Length of Detonator"
+                              },
+                              {
+                                "id": "buma-105",
+                                "name": "Strategi Pembelian",
+                                "children": [
+                                  {
+                                    "id": "buma-106",
+                                    "name": "Import/Local"
+                                  },
+                                  {
+                                    "id": "buma-107",
+                                    "name": "Warehousing"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-108",
+                            "name": "Consumption",
+                            "children": [
+                              {
+                                "id": "buma-109",
+                                "name": "Powder Factor",
+                                "children": [
+                                  {
+                                    "id": "buma-110",
+                                    "name": "Litologi"
+                                  },
+                                  {
+                                    "id": "buma-111",
+                                    "name": "Formulasi %AN"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-112",
+                                "name": "Number of Holes"
+                              },
+                              {
+                                "id": "buma-113",
+                                "name": "Blasted Volume"
+                              },
+                              {
+                                "id": "buma-114",
+                                "name": "Blasting Method"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-115",
+                        "name": "Acc Peka Detonator",
+                        "children": [
+                          {
+                            "id": "buma-116",
+                            "name": "Price",
+                            "children": [
+                              {
+                                "id": "buma-117",
+                                "name": "Type",
+                                "children": [
+                                  {
+                                    "id": "buma-118",
+                                    "name": "Booster"
+                                  },
+                                  {
+                                    "id": "buma-119",
+                                    "name": "Cartridge"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-120",
+                                "name": "Berat",
+                                "children": [
+                                  {
+                                    "id": "buma-121",
+                                    "name": "Hole Size"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-122",
+                                "name": "Strategi Pembelian",
+                                "children": [
+                                  {
+                                    "id": "buma-123",
+                                    "name": "Import/Local"
+                                  },
+                                  {
+                                    "id": "buma-124",
+                                    "name": "Warehousing"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-125",
+                            "name": "Consumption",
+                            "children": [
+                              {
+                                "id": "buma-126",
+                                "name": "Powder Factor",
+                                "children": [
+                                  {
+                                    "id": "buma-127",
+                                    "name": "Litologi"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-128",
+                                "name": "Number of Holes"
+                              },
+                              {
+                                "id": "buma-129",
+                                "name": "Blasted Volume"
+                              },
+                              {
+                                "id": "buma-130",
+                                "name": "Blasting Method"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-131",
+                    "name": "Services",
+                    "children": [
+                      {
+                        "id": "buma-132",
+                        "name": "Price",
+                        "children": [
+                          {
+                            "id": "buma-133",
+                            "name": "Equipment Cost Investment"
+                          },
+                          {
+                            "id": "buma-134",
+                            "name": "Overhead Cost"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-135",
+                        "name": "Consumption(Kg DTH)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-136",
+            "name": "Repair & Maintenance Cost(Finance)",
+            "children": [
+              {
+                "id": "buma-137",
+                "name": "Oil"
+              },
+              {
+                "id": "buma-138",
+                "name": "Spare Parts",
+                "children": [
+                  {
+                    "id": "buma-139",
+                    "name": "Spare Parts"
+                  },
+                  {
+                    "id": "buma-140",
+                    "name": "Workshop Supplies"
+                  },
+                  {
+                    "id": "buma-141",
+                    "name": "Electrical Consumables"
+                  }
+                ]
+              },
+              {
+                "id": "buma-142",
+                "name": "Services",
+                "children": [
+                  {
+                    "id": "buma-143",
+                    "name": "External Services"
+                  },
+                  {
+                    "id": "buma-144",
+                    "name": "Contract Services",
+                    "children": [
+                      {
+                        "id": "buma-145",
+                        "name": "FMC(Full Maintenance Contract)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-146",
+                "name": "Backlog Executions"
+              },
+              {
+                "id": "buma-147",
+                "name": "Warranty Accepted"
+              },
+              {
+                "id": "buma-148",
+                "name": "Surcharge",
+                "children": [
+                  {
+                    "id": "buma-149",
+                    "name": "PCR Effectiveness"
+                  },
+                  {
+                    "id": "buma-150",
+                    "name": "Service Accuracy"
+                  },
+                  {
+                    "id": "buma-151",
+                    "name": "CBM(Condition Based Monitoring)",
+                    "children": [
+                      {
+                        "id": "buma-152",
+                        "name": "Component Lifetime"
+                      },
+                      {
+                        "id": "buma-153",
+                        "name": "Visual Check"
+                      },
+                      {
+                        "id": "buma-154",
+                        "name": "SOS Follow Up"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-155",
+            "name": "Repair & Maintenance Cost",
+            "children": [
+              {
+                "id": "buma-156",
+                "name": "PM Maintenance",
+                "children": [
+                  {
+                    "id": "buma-157",
+                    "name": "Maintenance Cost (MT01)",
+                    "children": [
+                      {
+                        "id": "buma-158",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-159",
+                            "name": "Oil"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-160",
+                        "name": "Maintenance Cost",
+                        "children": [
+                          {
+                            "id": "buma-161",
+                            "name": "Lubricant & Grease"
+                          },
+                          {
+                            "id": "buma-162",
+                            "name": "Spare Parts"
+                          },
+                          {
+                            "id": "buma-163",
+                            "name": "Consumable"
+                          },
+                          {
+                            "id": "buma-164",
+                            "name": "Consumable-Blasting"
+                          },
+                          {
+                            "id": "buma-165",
+                            "name": "Consumable-Drilling"
+                          },
+                          {
+                            "id": "buma-166",
+                            "name": "Internal Labor",
+                            "esg": "S"
+                          },
+                          {
+                            "id": "buma-167",
+                            "name": "Labor Supply",
+                            "esg": "S"
+                          },
+                          {
+                            "id": "buma-168",
+                            "name": "Repair & Maintenance"
+                          },
+                          {
+                            "id": "buma-169",
+                            "name": "Service for LCT"
+                          },
+                          {
+                            "id": "buma-170",
+                            "name": "Service Contract"
+                          },
+                          {
+                            "id": "buma-171",
+                            "name": "Undercarriage"
+                          },
+                          {
+                            "id": "buma-172",
+                            "name": "GET"
+                          },
+                          {
+                            "id": "buma-173",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-174",
+                            "name": "External Service-Blasting"
+                          },
+                          {
+                            "id": "buma-175",
+                            "name": "External Service-Drilling"
+                          },
+                          {
+                            "id": "buma-176",
+                            "name": "Tyre"
+                          },
+                          {
+                            "id": "buma-177",
+                            "name": "All Service"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-178",
+                    "name": "Modification Cost (MT07)",
+                    "children": [
+                      {
+                        "id": "buma-179",
+                        "name": "Maintenance Cost",
+                        "children": [
+                          {
+                            "id": "buma-180",
+                            "name": "Lubricant & Grease"
+                          },
+                          {
+                            "id": "buma-181",
+                            "name": "Spare Parts"
+                          },
+                          {
+                            "id": "buma-182",
+                            "name": "Consumable"
+                          },
+                          {
+                            "id": "buma-183",
+                            "name": "Consumable-Blasting"
+                          },
+                          {
+                            "id": "buma-184",
+                            "name": "Consumable-Drilling"
+                          },
+                          {
+                            "id": "buma-185",
+                            "name": "Internal Labor",
+                            "esg": "S"
+                          },
+                          {
+                            "id": "buma-186",
+                            "name": "Labor Supply",
+                            "esg": "S"
+                          },
+                          {
+                            "id": "buma-187",
+                            "name": "Repair & Maintenance"
+                          },
+                          {
+                            "id": "buma-188",
+                            "name": "Service for LCT"
+                          },
+                          {
+                            "id": "buma-189",
+                            "name": "Service Contract"
+                          },
+                          {
+                            "id": "buma-190",
+                            "name": "Undercarriage"
+                          },
+                          {
+                            "id": "buma-191",
+                            "name": "GET"
+                          },
+                          {
+                            "id": "buma-192",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-193",
+                            "name": "External Service-Blasting"
+                          },
+                          {
+                            "id": "buma-194",
+                            "name": "External Service-Drilling"
+                          },
+                          {
+                            "id": "buma-195",
+                            "name": "Tyre"
+                          },
+                          {
+                            "id": "buma-196",
+                            "name": "All Service"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-197",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-198",
+                            "name": "Oil"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-199",
+                "name": "PM Buckets & Bodies",
+                "children": [
+                  {
+                    "id": "buma-200",
+                    "name": "Buckets & Bodies Cost (MT02)",
+                    "children": [
+                      {
+                        "id": "buma-201",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-202",
+                            "name": "Oil"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-203",
+                        "name": "Buckets & Bodies Cost",
+                        "children": [
+                          {
+                            "id": "buma-204",
+                            "name": "Lubricant & Grease"
+                          },
+                          {
+                            "id": "buma-205",
+                            "name": "Spare Parts"
+                          },
+                          {
+                            "id": "buma-206",
+                            "name": "Consumable"
+                          },
+                          {
+                            "id": "buma-207",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-208",
+                            "name": "Internal Labor"
+                          },
+                          {
+                            "id": "buma-209",
+                            "name": "Labor Supply"
+                          },
+                          {
+                            "id": "buma-210",
+                            "name": "Repair & Maintenance"
+                          },
+                          {
+                            "id": "buma-211",
+                            "name": "Service for LCT"
+                          },
+                          {
+                            "id": "buma-212",
+                            "name": "Service Contract"
+                          },
+                          {
+                            "id": "buma-213",
+                            "name": "External Service-Drilling"
+                          },
+                          {
+                            "id": "buma-214",
+                            "name": "All Service"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-215",
+                "name": "PM Under Carriage",
+                "children": [
+                  {
+                    "id": "buma-216",
+                    "name": "Under Carriage Cost (MT03)",
+                    "children": [
+                      {
+                        "id": "buma-217",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-218",
+                            "name": "Oil"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-219",
+                        "name": "Under Carriage Cost",
+                        "children": [
+                          {
+                            "id": "buma-220",
+                            "name": "Lubricant & Grease"
+                          },
+                          {
+                            "id": "buma-221",
+                            "name": "Spare Parts"
+                          },
+                          {
+                            "id": "buma-222",
+                            "name": "Consumable"
+                          },
+                          {
+                            "id": "buma-223",
+                            "name": "Internal Labor"
+                          },
+                          {
+                            "id": "buma-224",
+                            "name": "Labor Supply"
+                          },
+                          {
+                            "id": "buma-225",
+                            "name": "Repair & Maintenance"
+                          },
+                          {
+                            "id": "buma-226",
+                            "name": "Service for LCT"
+                          },
+                          {
+                            "id": "buma-227",
+                            "name": "Service Contract"
+                          },
+                          {
+                            "id": "buma-228",
+                            "name": "Undercarriage"
+                          },
+                          {
+                            "id": "buma-229",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-230",
+                            "name": "External Service-Drilling"
+                          },
+                          {
+                            "id": "buma-231",
+                            "name": "All Service"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-232",
+                "name": "PM Overhaul",
+                "children": [
+                  {
+                    "id": "buma-233",
+                    "name": "PCR/Overhaul Cost (MT04)",
+                    "children": [
+                      {
+                        "id": "buma-234",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-235",
+                            "name": "Oil"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-236",
+                "name": "PM Services",
+                "children": [
+                  {
+                    "id": "buma-237",
+                    "name": "Service Cost (MT05)",
+                    "children": [
+                      {
+                        "id": "buma-238",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-239",
+                            "name": "Oil"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-240",
+                        "name": "Service Cost",
+                        "children": [
+                          {
+                            "id": "buma-241",
+                            "name": "Lubricant & Grease"
+                          },
+                          {
+                            "id": "buma-242",
+                            "name": "Spare Parts"
+                          },
+                          {
+                            "id": "buma-243",
+                            "name": "Consumable"
+                          },
+                          {
+                            "id": "buma-244",
+                            "name": "Consumable-Blasting"
+                          },
+                          {
+                            "id": "buma-245",
+                            "name": "Consumable-Drilling"
+                          },
+                          {
+                            "id": "buma-246",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-247",
+                            "name": "External Service-Blasting"
+                          },
+                          {
+                            "id": "buma-248",
+                            "name": "External Service-Drilling"
+                          },
+                          {
+                            "id": "buma-249",
+                            "name": "Internal Labor"
+                          },
+                          {
+                            "id": "buma-250",
+                            "name": "Labor Supply"
+                          },
+                          {
+                            "id": "buma-251",
+                            "name": "Repair & Maintenance"
+                          },
+                          {
+                            "id": "buma-252",
+                            "name": "Service for LCT"
+                          },
+                          {
+                            "id": "buma-253",
+                            "name": "Service Contract"
+                          },
+                          {
+                            "id": "buma-254",
+                            "name": "All Service"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-255",
+                "name": "PM GET",
+                "children": [
+                  {
+                    "id": "buma-256",
+                    "name": "GET Cost (MT12)",
+                    "children": [
+                      {
+                        "id": "buma-257",
+                        "name": "Lubricant Cost",
+                        "children": [
+                          {
+                            "id": "buma-258",
+                            "name": "Oil"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-259",
+                        "name": "GET Cost",
+                        "children": [
+                          {
+                            "id": "buma-260",
+                            "name": "Lubricant & Grease"
+                          },
+                          {
+                            "id": "buma-261",
+                            "name": "Spare Parts"
+                          },
+                          {
+                            "id": "buma-262",
+                            "name": "Consumable"
+                          },
+                          {
+                            "id": "buma-263",
+                            "name": "Internal Labor"
+                          },
+                          {
+                            "id": "buma-264",
+                            "name": "Labor Supply"
+                          },
+                          {
+                            "id": "buma-265",
+                            "name": "GET"
+                          },
+                          {
+                            "id": "buma-266",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-267",
+                            "name": "External Service-Drilling"
+                          },
+                          {
+                            "id": "buma-268",
+                            "name": "All Service"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-269",
+                "name": "PM Rotatable Parts",
+                "children": [
+                  {
+                    "id": "buma-270",
+                    "name": "Rotatable Maintenance Cost (MT08)",
+                    "children": [
+                      {
+                        "id": "buma-271",
+                        "name": "Consumables",
+                        "children": [
+                          {
+                            "id": "buma-272",
+                            "name": "Fuel",
+                            "esg": "E",
+                            "scope": 1
+                          },
+                          {
+                            "id": "buma-273",
+                            "name": "Tyre"
+                          },
+                          {
+                            "id": "buma-274",
+                            "name": "Tyre Repair Clearing"
+                          },
+                          {
+                            "id": "buma-275",
+                            "name": "Blasting (Material)",
+                            "esg": "E",
+                            "scope": 1
+                          },
+                          {
+                            "id": "buma-276",
+                            "name": "Blasting (Service)",
+                            "esg": "E",
+                            "scope": 1
+                          },
+                          {
+                            "id": "buma-277",
+                            "name": "Drilling (Material)"
+                          },
+                          {
+                            "id": "buma-278",
+                            "name": "Drilling (Service)"
+                          },
+                          {
+                            "id": "buma-279",
+                            "name": "Ground Engaging Tools (GET"
+                          },
+                          {
+                            "id": "buma-280",
+                            "name": "Under Carriage"
+                          },
+                          {
+                            "id": "buma-281",
+                            "name": "Pit Dewatering",
+                            "esg": "E"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-282",
+                        "name": "Repair&Maintenance",
+                        "children": [
+                          {
+                            "id": "buma-283",
+                            "name": "Lubricants"
+                          },
+                          {
+                            "id": "buma-284",
+                            "name": "Spareparts"
+                          },
+                          {
+                            "id": "buma-285",
+                            "name": "External Service"
+                          },
+                          {
+                            "id": "buma-286",
+                            "name": "Service Contr.(FMC)"
+                          },
+                          {
+                            "id": "buma-287",
+                            "name": "Workshop Supplies"
+                          },
+                          {
+                            "id": "buma-288",
+                            "name": "Electrical Consumables"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-289",
+                "name": "PM Tyre",
+                "children": [
+                  {
+                    "id": "buma-290",
+                    "name": "Tyre"
+                  },
+                  {
+                    "id": "buma-291",
+                    "name": "Spare Parts"
+                  },
+                  {
+                    "id": "buma-292",
+                    "name": "External Service"
+                  },
+                  {
+                    "id": "buma-293",
+                    "name": "Internal Labor"
+                  },
+                  {
+                    "id": "buma-294",
+                    "name": "Labor Supply"
+                  },
+                  {
+                    "id": "buma-295",
+                    "name": "Consumable"
+                  }
+                ]
+              },
+              {
+                "id": "buma-296",
+                "name": "PM Accident",
+                "children": [
+                  {
+                    "id": "buma-297",
+                    "name": "GET"
+                  },
+                  {
+                    "id": "buma-298",
+                    "name": "Under Carriage"
+                  },
+                  {
+                    "id": "buma-299",
+                    "name": "Oil"
+                  },
+                  {
+                    "id": "buma-300",
+                    "name": "Spareparts"
+                  },
+                  {
+                    "id": "buma-301",
+                    "name": "External Service"
+                  },
+                  {
+                    "id": "buma-302",
+                    "name": "External Service-Drilling"
+                  },
+                  {
+                    "id": "buma-303",
+                    "name": "Service Contract"
+                  },
+                  {
+                    "id": "buma-304",
+                    "name": "Consumable"
+                  },
+                  {
+                    "id": "buma-305",
+                    "name": "Internal Labor"
+                  },
+                  {
+                    "id": "buma-306",
+                    "name": "Labor Supply"
+                  },
+                  {
+                    "id": "buma-307",
+                    "name": "Repair & Maintenance"
+                  },
+                  {
+                    "id": "buma-308",
+                    "name": "Service for LCT"
+                  },
+                  {
+                    "id": "buma-309",
+                    "name": "All Service"
+                  }
+                ]
+              },
+              {
+                "id": "buma-310",
+                "name": "Overhead Cost",
+                "children": [
+                  {
+                    "id": "buma-311",
+                    "name": "Commisioning (MT06)"
+                  },
+                  {
+                    "id": "buma-312",
+                    "name": "Tools Repair (MT11)"
+                  },
+                  {
+                    "id": "buma-313",
+                    "name": "Drilling Consumables Goods (MT14)"
+                  },
+                  {
+                    "id": "buma-314",
+                    "name": "Consumables",
+                    "children": [
+                      {
+                        "id": "buma-315",
+                        "name": "Fuel",
+                        "esg": "E",
+                        "scope": 1
+                      },
+                      {
+                        "id": "buma-316",
+                        "name": "Tyre"
+                      },
+                      {
+                        "id": "buma-317",
+                        "name": "Tyre Repair Clearing"
+                      },
+                      {
+                        "id": "buma-318",
+                        "name": "Blasting (Material)",
+                        "esg": "E",
+                        "scope": 1
+                      },
+                      {
+                        "id": "buma-319",
+                        "name": "Blasting (Service)",
+                        "esg": "E",
+                        "scope": 1
+                      },
+                      {
+                        "id": "buma-320",
+                        "name": "Drilling (Material)"
+                      },
+                      {
+                        "id": "buma-321",
+                        "name": "Drilling (Service)"
+                      },
+                      {
+                        "id": "buma-322",
+                        "name": "Ground Engaging Tools (GET"
+                      },
+                      {
+                        "id": "buma-323",
+                        "name": "Under Carriage"
+                      },
+                      {
+                        "id": "buma-324",
+                        "name": "Pit Dewatering",
+                        "esg": "E"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-325",
+                    "name": "Repair&Maintenance",
+                    "children": [
+                      {
+                        "id": "buma-326",
+                        "name": "Lubricants"
+                      },
+                      {
+                        "id": "buma-327",
+                        "name": "Spareparts"
+                      },
+                      {
+                        "id": "buma-328",
+                        "name": "External Service"
+                      },
+                      {
+                        "id": "buma-329",
+                        "name": "Service Contr.(FMC)"
+                      },
+                      {
+                        "id": "buma-330",
+                        "name": "Workshop Supplies"
+                      },
+                      {
+                        "id": "buma-331",
+                        "name": "Electrical Consumables"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-332",
+                    "name": "Mobilization",
+                    "children": [
+                      {
+                        "id": "buma-333",
+                        "name": "Equipment & Vehicles"
+                      },
+                      {
+                        "id": "buma-334",
+                        "name": "Explosive Material"
+                      },
+                      {
+                        "id": "buma-335",
+                        "name": "Parts,Lubricant,Tyre"
+                      },
+                      {
+                        "id": "buma-336",
+                        "name": "Fuel",
+                        "esg": "E",
+                        "scope": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-337",
+                    "name": "Rental",
+                    "children": [
+                      {
+                        "id": "buma-338",
+                        "name": "Heavy Equipment"
+                      },
+                      {
+                        "id": "buma-339",
+                        "name": "Vehicle & Transportation"
+                      },
+                      {
+                        "id": "buma-340",
+                        "name": "Building"
+                      },
+                      {
+                        "id": "buma-341",
+                        "name": "Office Equipment"
+                      },
+                      {
+                        "id": "buma-342",
+                        "name": "Machinery Equipment"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-343",
+                    "name": "Others",
+                    "children": [
+                      {
+                        "id": "buma-344",
+                        "name": "Subcontractor"
+                      },
+                      {
+                        "id": "buma-345",
+                        "name": "Labour Supply",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "buma-346",
+                        "name": "OverBurden Fee"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-347",
+                "name": "Services",
+                "children": [
+                  {
+                    "id": "buma-348",
+                    "name": "External Services"
+                  },
+                  {
+                    "id": "buma-349",
+                    "name": "Contract Services",
+                    "children": [
+                      {
+                        "id": "buma-350",
+                        "name": "FMC(Full Maintenance Contract)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-351",
+                "name": "Backlog Executions"
+              },
+              {
+                "id": "buma-352",
+                "name": "Warranty Accepted"
+              },
+              {
+                "id": "buma-353",
+                "name": "Surcharge",
+                "children": [
+                  {
+                    "id": "buma-354",
+                    "name": "PCR Effectiveness"
+                  },
+                  {
+                    "id": "buma-355",
+                    "name": "Service Accuracy"
+                  },
+                  {
+                    "id": "buma-356",
+                    "name": "CBM(Condition Based Monitoring)",
+                    "children": [
+                      {
+                        "id": "buma-357",
+                        "name": "Component Lifetime"
+                      },
+                      {
+                        "id": "buma-358",
+                        "name": "Visual Check"
+                      },
+                      {
+                        "id": "buma-359",
+                        "name": "SOS Follow Up"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-360",
+            "name": "Fuel Cost",
+            "esg": "E",
+            "scope": 1,
+            "children": [
+              {
+                "id": "buma-361",
+                "name": "......"
+              }
+            ]
+          },
+          {
+            "id": "buma-362",
+            "name": "Others",
+            "children": [
+              {
+                "id": "buma-363",
+                "name": "HR Cost",
+                "esg": "S",
+                "children": [
+                  {
+                    "id": "buma-364",
+                    "name": "Employee Welfare",
+                    "esg": "S"
+                  },
+                  {
+                    "id": "buma-365",
+                    "name": "Training & Education Cost",
+                    "esg": "S"
+                  },
+                  {
+                    "id": "buma-366",
+                    "name": "Jamsostek(JHT)",
+                    "esg": "S"
+                  },
+                  {
+                    "id": "buma-367",
+                    "name": "Recruitment Cost",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "buma-368",
+                        "name": "Voluntary Turn Over",
+                        "children": [
+                          {
+                            "id": "buma-369",
+                            "name": "Internal Fulfillment"
+                          },
+                          {
+                            "id": "buma-370",
+                            "name": "External Fulfillment"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-371",
+                    "name": "Pension",
+                    "esg": "S"
+                  }
+                ]
+              },
+              {
+                "id": "buma-372",
+                "name": "Rental",
+                "children": [
+                  {
+                    "id": "buma-373",
+                    "name": "Heavy Equipment"
+                  },
+                  {
+                    "id": "buma-374",
+                    "name": "Tools"
+                  },
+                  {
+                    "id": "buma-375",
+                    "name": "Office Equipments"
+                  },
+                  {
+                    "id": "buma-376",
+                    "name": "Building"
+                  },
+                  {
+                    "id": "buma-377",
+                    "name": "Vehicle & Transportation"
+                  }
+                ]
+              },
+              {
+                "id": "buma-378",
+                "name": "Mobilization",
+                "children": [
+                  {
+                    "id": "buma-379",
+                    "name": "Equipment & Vehicle"
+                  },
+                  {
+                    "id": "buma-380",
+                    "name": "Explosive Material"
+                  },
+                  {
+                    "id": "buma-381",
+                    "name": "Part, Lubricant & Tyre"
+                  },
+                  {
+                    "id": "buma-382",
+                    "name": "Fuel",
+                    "esg": "E",
+                    "scope": 1
+                  }
+                ]
+              },
+              {
+                "id": "buma-383",
+                "name": "Transport & Travelling"
+              },
+              {
+                "id": "buma-384",
+                "name": "Overhead"
+              },
+              {
+                "id": "buma-385",
+                "name": "Subcontractor"
+              },
+              {
+                "id": "buma-386",
+                "name": "Labor Supply",
+                "esg": "S"
+              },
+              {
+                "id": "buma-387",
+                "name": "Overburden Fee"
+              },
+              {
+                "id": "buma-388",
+                "name": "Provision for major overhaul"
+              },
+              {
+                "id": "buma-389",
+                "name": "Service Land Clearing",
+                "esg": "E"
+              },
+              {
+                "id": "buma-390",
+                "name": "Service for Environment",
+                "esg": "E"
+              },
+              {
+                "id": "buma-391",
+                "name": "Project Tools & Supplies"
+              },
+              {
+                "id": "buma-392",
+                "name": "Pit Dewatering",
+                "esg": "E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "buma-393",
+        "name": "Production (Revenue)",
+        "children": [
+          {
+            "id": "buma-394",
+            "name": "OB Removal",
+            "children": [
+              {
+                "id": "buma-395",
+                "name": "QTY",
+                "children": [
+                  {
+                    "id": "buma-396",
+                    "name": "Loader",
+                    "children": [
+                      {
+                        "id": "buma-397",
+                        "name": "Working Equipment"
+                      },
+                      {
+                        "id": "buma-398",
+                        "name": "Parked Equipment"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-399",
+                    "name": "Hauler",
+                    "children": [
+                      {
+                        "id": "buma-400",
+                        "name": "Working Equipment"
+                      },
+                      {
+                        "id": "buma-401",
+                        "name": "Parked Equipment"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-402",
+                "name": "PA",
+                "children": [
+                  {
+                    "id": "buma-403",
+                    "name": "Loader",
+                    "children": [
+                      {
+                        "id": "buma-404",
+                        "name": "MTBS",
+                        "children": [
+                          {
+                            "id": "buma-405",
+                            "name": "Schedule Maintenance",
+                            "children": [
+                              {
+                                "id": "buma-406",
+                                "name": "Periodical Service",
+                                "children": [
+                                  {
+                                    "id": "buma-407",
+                                    "name": "PCR"
+                                  },
+                                  {
+                                    "id": "buma-408",
+                                    "name": "Backlog Execution"
+                                  },
+                                  {
+                                    "id": "buma-409",
+                                    "name": "Service"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "buma-410",
+                                "name": "Washing Schedule"
+                              },
+                              {
+                                "id": "buma-411",
+                                "name": "Inspection Schedule"
+                              },
+                              {
+                                "id": "buma-412",
+                                "name": "CBM(Condition Based Monitoring)",
+                                "children": [
+                                  {
+                                    "id": "buma-413",
+                                    "name": "Component Lifetime"
+                                  },
+                                  {
+                                    "id": "buma-414",
+                                    "name": "Visual Check"
+                                  },
+                                  {
+                                    "id": "buma-415",
+                                    "name": "SOS Follow Up"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-416",
+                            "name": "Unschedule Maintenance"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-417",
+                        "name": "MTTR",
+                        "children": [
+                          {
+                            "id": "buma-418",
+                            "name": "RM-Parts Availibility"
+                          },
+                          {
+                            "id": "buma-419",
+                            "name": "Workshop Labour"
+                          },
+                          {
+                            "id": "buma-420",
+                            "name": "Waiting Tools & Equipments"
+                          },
+                          {
+                            "id": "buma-421",
+                            "name": "Weather"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-422",
+                    "name": "Hauler",
+                    "children": [
+                      {
+                        "id": "buma-423",
+                        "name": "MTBS",
+                        "children": [
+                          {
+                            "id": "buma-424",
+                            "name": "Schedule Maintenance"
+                          },
+                          {
+                            "id": "buma-425",
+                            "name": "Unschedule Maintenance"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-426",
+                        "name": "MTTR",
+                        "children": [
+                          {
+                            "id": "buma-427",
+                            "name": "RM-Parts Availibility"
+                          },
+                          {
+                            "id": "buma-428",
+                            "name": "Workshop Labour"
+                          },
+                          {
+                            "id": "buma-429",
+                            "name": "Waiting Tools & Equipments"
+                          },
+                          {
+                            "id": "buma-430",
+                            "name": "Weather"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-431",
+                "name": "UA",
+                "children": [
+                  {
+                    "id": "buma-432",
+                    "name": "Loader",
+                    "children": [
+                      {
+                        "id": "buma-433",
+                        "name": "Standby Item",
+                        "children": [
+                          {
+                            "id": "buma-434",
+                            "name": "Wait Operator",
+                            "children": [
+                              {
+                                "id": "buma-435",
+                                "name": "Facility Improvement"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-436",
+                            "name": "No Operator",
+                            "children": [
+                              {
+                                "id": "buma-437",
+                                "name": "Manpower Fulfillment&Readiness",
+                                "esg": "S"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-438",
+                            "name": "Meal & Rest"
+                          },
+                          {
+                            "id": "buma-439",
+                            "name": "Friday Pray"
+                          },
+                          {
+                            "id": "buma-440",
+                            "name": "Wait Blasting"
+                          },
+                          {
+                            "id": "buma-441",
+                            "name": "Refueling"
+                          },
+                          {
+                            "id": "buma-442",
+                            "name": "Safety Talk",
+                            "esg": "S"
+                          },
+                          {
+                            "id": "buma-443",
+                            "name": "Shift Change"
+                          },
+                          {
+                            "id": "buma-444",
+                            "name": "Front Preparation"
+                          },
+                          {
+                            "id": "buma-445",
+                            "name": "Rain & Slippery"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-446",
+                        "name": "Effective Working Hours"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-447",
+                    "name": "Hauler",
+                    "children": [
+                      {
+                        "id": "buma-448",
+                        "name": "Standby Item",
+                        "children": [
+                          {
+                            "id": "buma-449",
+                            "name": "Wait Operator",
+                            "children": [
+                              {
+                                "id": "buma-450",
+                                "name": "Facility Improvement"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-451",
+                            "name": "No Operator",
+                            "children": [
+                              {
+                                "id": "buma-452",
+                                "name": "Manpower Fulfillment&Readiness",
+                                "esg": "S"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-453",
+                            "name": "Meal & Rest"
+                          },
+                          {
+                            "id": "buma-454",
+                            "name": "Friday Pray"
+                          },
+                          {
+                            "id": "buma-455",
+                            "name": "Wait Blasting"
+                          },
+                          {
+                            "id": "buma-456",
+                            "name": "Refueling"
+                          },
+                          {
+                            "id": "buma-457",
+                            "name": "Safety Talk",
+                            "esg": "S"
+                          },
+                          {
+                            "id": "buma-458",
+                            "name": "Shift Change"
+                          },
+                          {
+                            "id": "buma-459",
+                            "name": "Front Preparation"
+                          },
+                          {
+                            "id": "buma-460",
+                            "name": "Rain & Slippery"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-461",
+                        "name": "Effective Working Hours"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-462",
+                "name": "PTY",
+                "children": [
+                  {
+                    "id": "buma-463",
+                    "name": "Loader",
+                    "children": [
+                      {
+                        "id": "buma-464",
+                        "name": "Load Performance",
+                        "children": [
+                          {
+                            "id": "buma-465",
+                            "name": "bcm/pass",
+                            "children": [
+                              {
+                                "id": "buma-466",
+                                "name": "Bucket Size"
+                              },
+                              {
+                                "id": "buma-467",
+                                "name": "Fill Factor"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-468",
+                            "name": "Pass/hour",
+                            "children": [
+                              {
+                                "id": "buma-469",
+                                "name": "Min/Pass"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-470",
+                        "name": "Productivity Problem"
+                      },
+                      {
+                        "id": "buma-471",
+                        "name": "Distance"
+                      },
+                      {
+                        "id": "buma-472",
+                        "name": "Operator Performance",
+                        "esg": "S",
+                        "children": [
+                          {
+                            "id": "buma-473",
+                            "name": "AR"
+                          },
+                          {
+                            "id": "buma-474",
+                            "name": "Pelanggaran PKB"
+                          },
+                          {
+                            "id": "buma-475",
+                            "name": "HM Performance"
+                          },
+                          {
+                            "id": "buma-476",
+                            "name": "Safety Awareness",
+                            "esg": "S"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-477",
+                    "name": "Hauler",
+                    "children": [
+                      {
+                        "id": "buma-478",
+                        "name": "Trip Performance",
+                        "children": [
+                          {
+                            "id": "buma-479",
+                            "name": "bcm/Trip",
+                            "children": [
+                              {
+                                "id": "buma-480",
+                                "name": "Vessel Size"
+                              },
+                              {
+                                "id": "buma-481",
+                                "name": "Fill Ratio"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "buma-482",
+                            "name": "Cycle Time",
+                            "children": [
+                              {
+                                "id": "buma-483",
+                                "name": "Distance"
+                              },
+                              {
+                                "id": "buma-484",
+                                "name": "Speed"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "buma-485",
+                        "name": "Productivity Problem"
+                      },
+                      {
+                        "id": "buma-486",
+                        "name": "Operator Performance",
+                        "esg": "S",
+                        "children": [
+                          {
+                            "id": "buma-487",
+                            "name": "AR"
+                          },
+                          {
+                            "id": "buma-488",
+                            "name": "Pelanggaran PKB"
+                          },
+                          {
+                            "id": "buma-489",
+                            "name": "HM Performance"
+                          },
+                          {
+                            "id": "buma-490",
+                            "name": "Safety Awareness",
+                            "esg": "S"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "buma-491",
+                "name": "MOHH(Machine On Hand Hour)",
+                "children": [
+                  {
+                    "id": "buma-492",
+                    "name": "...."
+                  }
+                ]
+              },
+              {
+                "id": "buma-493",
+                "name": "Plan Accuracy",
+                "children": [
+                  {
+                    "id": "buma-494",
+                    "name": "Plan Accuracy : OB"
+                  },
+                  {
+                    "id": "buma-495",
+                    "name": "Plan Accuracy : OB Hauling Distance"
+                  },
+                  {
+                    "id": "buma-496",
+                    "name": "Lead Time BA"
+                  },
+                  {
+                    "id": "buma-497",
+                    "name": "Deviation Of Joint Survey"
+                  },
+                  {
+                    "id": "buma-498",
+                    "name": "Plan Compliance"
+                  }
+                ]
+              },
+              {
+                "id": "buma-499",
+                "name": "Lost Production",
+                "children": [
+                  {
+                    "id": "buma-500",
+                    "name": "Internal Disturbances",
+                    "children": [
+                      {
+                        "id": "buma-501",
+                        "name": "Leadtime to response and solve internal customer"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-502",
+                    "name": "External Disturbances",
+                    "children": [
+                      {
+                        "id": "buma-503",
+                        "name": "Leadtime to response and solve External customer"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-504",
+                    "name": "SHE",
+                    "esg": "S",
+                    "children": [
+                      {
+                        "id": "buma-505",
+                        "name": "TIFR",
+                        "esg": "S"
+                      },
+                      {
+                        "id": "buma-506",
+                        "name": "TISR",
+                        "esg": "S"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-507",
+                    "name": "....."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-508",
+            "name": "Coal Mining",
+            "children": [
+              {
+                "id": "buma-509",
+                "name": "QTY",
+                "children": [
+                  {
+                    "id": "buma-510",
+                    "name": "Working Equipment"
+                  },
+                  {
+                    "id": "buma-511",
+                    "name": "Parked Equipment"
+                  }
+                ]
+              },
+              {
+                "id": "buma-512",
+                "name": "PA",
+                "children": [
+                  {
+                    "id": "buma-513",
+                    "name": "MTBS"
+                  },
+                  {
+                    "id": "buma-514",
+                    "name": "MTTR"
+                  }
+                ]
+              },
+              {
+                "id": "buma-515",
+                "name": "UA",
+                "children": [
+                  {
+                    "id": "buma-516",
+                    "name": "Standby Item"
+                  },
+                  {
+                    "id": "buma-517",
+                    "name": "Effective Working Hours"
+                  },
+                  {
+                    "id": "buma-518",
+                    "name": "Manpower Fulfillment&Readiness",
+                    "esg": "S"
+                  }
+                ]
+              },
+              {
+                "id": "buma-519",
+                "name": "PTY",
+                "children": [
+                  {
+                    "id": "buma-520",
+                    "name": "Blasting Factor"
+                  },
+                  {
+                    "id": "buma-521",
+                    "name": "Productivity Problem"
+                  },
+                  {
+                    "id": "buma-522",
+                    "name": "Distance"
+                  },
+                  {
+                    "id": "buma-523",
+                    "name": "Operator Performance"
+                  }
+                ]
+              },
+              {
+                "id": "buma-524",
+                "name": "Plan Accuracy",
+                "children": [
+                  {
+                    "id": "buma-525",
+                    "name": "Plan Accuracy : Coal Mining"
+                  },
+                  {
+                    "id": "buma-526",
+                    "name": "Plan Accuracy : Coal Mining Distance"
+                  },
+                  {
+                    "id": "buma-527",
+                    "name": "Lead Time BA"
+                  },
+                  {
+                    "id": "buma-528",
+                    "name": "Deviation Of Joint Survey"
+                  },
+                  {
+                    "id": "buma-529",
+                    "name": "Plan Compliance"
+                  }
+                ]
+              },
+              {
+                "id": "buma-530",
+                "name": "Lost Production",
+                "children": [
+                  {
+                    "id": "buma-531",
+                    "name": "Internal Disturbances",
+                    "children": [
+                      {
+                        "id": "buma-532",
+                        "name": "Leadtime to response and solve internal customer"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-533",
+                    "name": "External Disturbances",
+                    "children": [
+                      {
+                        "id": "buma-534",
+                        "name": "Leadtime to response and solve External customer"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-535",
+                    "name": "....."
+                  },
+                  {
+                    "id": "buma-536",
+                    "name": "....."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-537",
+            "name": "Coal Hauling",
+            "children": [
+              {
+                "id": "buma-538",
+                "name": "QTY",
+                "children": [
+                  {
+                    "id": "buma-539",
+                    "name": "Working Equipment"
+                  },
+                  {
+                    "id": "buma-540",
+                    "name": "Parked Equipment"
+                  }
+                ]
+              },
+              {
+                "id": "buma-541",
+                "name": "PA",
+                "children": [
+                  {
+                    "id": "buma-542",
+                    "name": "MTBS"
+                  },
+                  {
+                    "id": "buma-543",
+                    "name": "MTTR"
+                  }
+                ]
+              },
+              {
+                "id": "buma-544",
+                "name": "UA",
+                "children": [
+                  {
+                    "id": "buma-545",
+                    "name": "Standby Item"
+                  },
+                  {
+                    "id": "buma-546",
+                    "name": "Effective Working Hours"
+                  },
+                  {
+                    "id": "buma-547",
+                    "name": "Manpower Fulfillment&Readiness",
+                    "esg": "S"
+                  }
+                ]
+              },
+              {
+                "id": "buma-548",
+                "name": "PTY",
+                "children": [
+                  {
+                    "id": "buma-549",
+                    "name": "Blasting Factor"
+                  },
+                  {
+                    "id": "buma-550",
+                    "name": "Productivity Problem"
+                  },
+                  {
+                    "id": "buma-551",
+                    "name": "Distance"
+                  },
+                  {
+                    "id": "buma-552",
+                    "name": "Operator Performance"
+                  }
+                ]
+              },
+              {
+                "id": "buma-553",
+                "name": "Plan Accuracy",
+                "children": [
+                  {
+                    "id": "buma-554",
+                    "name": "Plan Accuracy : Coal Hauling"
+                  },
+                  {
+                    "id": "buma-555",
+                    "name": "Plan Accuracy : Coal Hauling Distance"
+                  },
+                  {
+                    "id": "buma-556",
+                    "name": "Lead Time BA"
+                  },
+                  {
+                    "id": "buma-557",
+                    "name": "Deviation Of Joint Survey"
+                  },
+                  {
+                    "id": "buma-558",
+                    "name": "Plan Compliance"
+                  }
+                ]
+              },
+              {
+                "id": "buma-559",
+                "name": "Lost Production",
+                "children": [
+                  {
+                    "id": "buma-560",
+                    "name": "Internal Disturbances",
+                    "children": [
+                      {
+                        "id": "buma-561",
+                        "name": "Leadtime to response and solve internal customer"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-562",
+                    "name": "External Disturbances",
+                    "children": [
+                      {
+                        "id": "buma-563",
+                        "name": "Leadtime to response and solve External customer"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "buma-564",
+                    "name": "....."
+                  },
+                  {
+                    "id": "buma-565",
+                    "name": "....."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "buma-566",
+            "name": "Rental"
+          },
+          {
+            "id": "buma-567",
+            "name": "Wet Rental"
+          },
+          {
+            "id": "buma-568",
+            "name": "Others",
+            "children": [
+              {
+                "id": "buma-569",
+                "name": "Day Work",
+                "children": [
+                  {
+                    "id": "buma-570",
+                    "name": "Planning"
+                  },
+                  {
+                    "id": "buma-571",
+                    "name": "Monitoring"
+                  },
+                  {
+                    "id": "buma-572",
+                    "name": "HM Rental"
+                  }
+                ]
+              },
+              {
+                "id": "buma-573",
+                "name": "Rental",
+                "children": [
+                  {
+                    "id": "buma-574",
+                    "name": "HM Rental"
+                  },
+                  {
+                    "id": "buma-575",
+                    "name": "Standby Rate"
+                  }
+                ]
+              },
+              {
+                "id": "buma-576",
+                "name": "AFCA"
+              },
+              {
+                "id": "buma-577",
+                "name": "Used Equipment"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "buma-578",
+        "name": "Free Cash Flow",
+        "children": [
+          {
+            "id": "buma-579",
+            "name": "Operating Activities",
+            "children": [
+              {
+                "id": "buma-580",
+                "name": "AR Trade Collection"
+              },
+              {
+                "id": "buma-581",
+                "name": "AR Other"
+              },
+              {
+                "id": "buma-582",
+                "name": "Isurance Claim"
+              },
+              {
+                "id": "buma-583",
+                "name": "Interest Income"
+              },
+              {
+                "id": "buma-584",
+                "name": "Forex"
+              },
+              {
+                "id": "buma-585",
+                "name": "Prepaid Income Tax"
+              },
+              {
+                "id": "buma-586",
+                "name": "AP Payment"
+              },
+              {
+                "id": "buma-587",
+                "name": "Insurance"
+              },
+              {
+                "id": "buma-588",
+                "name": "Subcont"
+              },
+              {
+                "id": "buma-589",
+                "name": "Rental Unit"
+              },
+              {
+                "id": "buma-590",
+                "name": "Salary"
+              },
+              {
+                "id": "buma-591",
+                "name": "Tax"
+              },
+              {
+                "id": "buma-592",
+                "name": "GA Expense"
+              }
+            ]
+          },
+          {
+            "id": "buma-593",
+            "name": "Investment Activities",
+            "children": [
+              {
+                "id": "buma-594",
+                "name": "Capex Payment"
+              },
+              {
+                "id": "buma-595",
+                "name": "Disposal of FA"
+              }
+            ]
+          },
+          {
+            "id": "buma-596",
+            "name": "Financing Activities",
+            "children": [
+              {
+                "id": "buma-597",
+                "name": "Proceed Of Loan"
+              },
+              {
+                "id": "buma-598",
+                "name": "Payment"
+              },
+              {
+                "id": "buma-599",
+                "name": "Loan Fee"
+              },
+              {
+                "id": "buma-600",
+                "name": "Payment Of Interest"
+              },
+              {
+                "id": "buma-601",
+                "name": "Payment(Receipt) FR Related Party"
+              },
+              {
+                "id": "buma-602",
+                "name": "Dividend"
+              }
+            ]
+          },
+          {
+            "id": "buma-603",
+            "name": "Others Activities"
+          }
+        ]
+      },
+      {
+        "id": "buma-604",
+        "name": "Capex"
+      }
+    ]
+  }
+]

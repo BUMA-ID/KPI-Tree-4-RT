@@ -1,0 +1,2455 @@
+[
+  {
+    "id": "production-outcomes",
+    "name": "Production Outcomes",
+    "children": [
+      {
+        "id": "total-production",
+        "name": "Total Production Output",
+        "children": [
+          {
+            "id": "total-bcm-moved",
+            "name": "Total BCM Moved",
+            "unit": "BCM",
+            "children": [
+              {
+                "id": "overburden-bcm",
+                "name": "Overburden BCM",
+                "unit": "BCM"
+              },
+              {
+                "id": "coal-tonnes-equiv",
+                "name": "Coal Tonnes (BCM equiv)",
+                "unit": "BCM"
+              }
+            ]
+          },
+          {
+            "id": "coal-tonnes-extracted",
+            "name": "Coal Tonnes Extracted",
+            "unit": "tonnes"
+          },
+          {
+            "id": "material-movement-rate",
+            "name": "Material Movement Rate",
+            "unit": "BCM/hour"
+          }
+        ]
+      },
+      {
+        "id": "overall-efficiency",
+        "name": "Overall Operational Efficiency",
+        "unit": "%",
+        "children": [
+          {
+            "id": "actual-vs-theoretical",
+            "name": "Actual / Theoretical Maximum",
+            "unit": "%"
+          },
+          {
+            "id": "plan-achievement",
+            "name": "Plan Achievement Rate",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "fleet-effective-utilization",
+        "name": "Fleet Effective Utilization",
+        "unit": "%",
+        "children": [
+          {
+            "id": "productive-hrs-calendar",
+            "name": "Productive Hours / Calendar Hours",
+            "unit": "%"
+          },
+          {
+            "id": "fleet-oee",
+            "name": "Fleet OEE (Overall Equipment Effectiveness)",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fleet-availability",
+    "name": "Fleet Availability",
+    "children": [
+      {
+        "id": "physical-availability",
+        "name": "Physical Availability",
+        "unit": "%",
+        "children": [
+          {
+            "id": "mechanical-availability",
+            "name": "Mechanical Availability",
+            "unit": "%",
+            "children": [
+              {
+                "id": "operating-standby-hrs",
+                "name": "Operating + Standby Hours",
+                "unit": "hrs"
+              },
+              {
+                "id": "breakdown-hrs",
+                "name": "Breakdown Hours",
+                "unit": "hrs"
+              }
+            ]
+          },
+          {
+            "id": "operational-availability",
+            "name": "Operational Availability",
+            "unit": "%",
+            "children": [
+              {
+                "id": "operating-hrs",
+                "name": "Operating Hours",
+                "unit": "hrs"
+              },
+              {
+                "id": "scheduled-hrs-minus-pm",
+                "name": "Scheduled - Planned Maint",
+                "unit": "hrs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "use-of-availability",
+        "name": "Use of Availability",
+        "unit": "%",
+        "children": [
+          {
+            "id": "operating-vs-available",
+            "name": "Operating / Available Hours",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "time-utilization-breakdown",
+        "name": "Time Utilization Breakdown",
+        "children": [
+          {
+            "id": "operating-time-pct",
+            "name": "Operating Time",
+            "unit": "%"
+          },
+          {
+            "id": "standby-time-pct",
+            "name": "Standby Time",
+            "unit": "%"
+          },
+          {
+            "id": "delay-time-pct",
+            "name": "Delay Time",
+            "unit": "%"
+          },
+          {
+            "id": "breakdown-time-pct",
+            "name": "Breakdown Time",
+            "unit": "%"
+          },
+          {
+            "id": "scheduled-maint-pct",
+            "name": "Scheduled Maintenance",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "equipment-productivity",
+    "name": "Equipment Productivity",
+    "children": [
+      {
+        "id": "loader-excavator-performance",
+        "name": "Loader/Excavator Performance",
+        "children": [
+          {
+            "id": "loader-productivity",
+            "name": "Loader Productivity",
+            "unit": "BCM/hr",
+            "children": [
+              {
+                "id": "bucket-fill-factor",
+                "name": "Bucket Fill Factor",
+                "unit": "%"
+              },
+              {
+                "id": "cycles-per-hour",
+                "name": "Cycles per Hour",
+                "unit": "cycles/hr"
+              },
+              {
+                "id": "avg-bucket-payload",
+                "name": "Avg Bucket Payload",
+                "unit": "BCM"
+              }
+            ]
+          },
+          {
+            "id": "loader-cycle-time",
+            "name": "Loader Cycle Time",
+            "unit": "seconds",
+            "children": [
+              {
+                "id": "dig-time",
+                "name": "Dig Time",
+                "unit": "sec"
+              },
+              {
+                "id": "swing-loaded-time",
+                "name": "Swing Loaded Time",
+                "unit": "sec"
+              },
+              {
+                "id": "dump-time",
+                "name": "Dump Time",
+                "unit": "sec"
+              },
+              {
+                "id": "return-swing-time",
+                "name": "Return Swing Time",
+                "unit": "sec"
+              }
+            ]
+          },
+          {
+            "id": "loader-efficiency-factors",
+            "name": "Loader Efficiency Factors",
+            "children": [
+              {
+                "id": "muckpile-quality-impact",
+                "name": "Muckpile Quality Impact",
+                "unit": "%"
+              },
+              {
+                "id": "truck-availability-at-face",
+                "name": "Truck Availability at Face",
+                "unit": "%"
+              },
+              {
+                "id": "loading-geometry-score",
+                "name": "Loading Geometry Score",
+                "unit": "score"
+              },
+              {
+                "id": "loader-operator-efficiency",
+                "name": "Operator Efficiency",
+                "unit": "%",
+                "esg": "S"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "truck-performance",
+        "name": "Truck Performance",
+        "children": [
+          {
+            "id": "truck-productivity",
+            "name": "Truck Productivity",
+            "unit": "BCM/hr",
+            "children": [
+              {
+                "id": "cycles-per-shift",
+                "name": "Cycles per Shift",
+                "unit": "cycles"
+              },
+              {
+                "id": "avg-payload-tonnes",
+                "name": "Avg Payload",
+                "unit": "tonnes"
+              },
+              {
+                "id": "truck-operating-hrs-day",
+                "name": "Truck Operating Hours/Day",
+                "unit": "hrs"
+              }
+            ]
+          },
+          {
+            "id": "truck-cycle-time",
+            "name": "Truck Cycle Time",
+            "unit": "minutes",
+            "children": [
+              {
+                "id": "queue-time-loader",
+                "name": "Queue Time at Loader",
+                "unit": "min"
+              },
+              {
+                "id": "spot-time",
+                "name": "Spot Time",
+                "unit": "min"
+              },
+              {
+                "id": "loading-time",
+                "name": "Loading Time",
+                "unit": "min"
+              },
+              {
+                "id": "loaded-travel-time",
+                "name": "Loaded Travel Time",
+                "unit": "min"
+              },
+              {
+                "id": "dump-time-truck",
+                "name": "Dump Time",
+                "unit": "min"
+              },
+              {
+                "id": "empty-return-time",
+                "name": "Empty Return Time",
+                "unit": "min"
+              },
+              {
+                "id": "cycle-delay-time",
+                "name": "Delay Time",
+                "unit": "min"
+              }
+            ]
+          },
+          {
+            "id": "truck-performance-factors",
+            "name": "Truck Performance Factors",
+            "children": [
+              {
+                "id": "payload-utilization",
+                "name": "Payload Utilization",
+                "unit": "%"
+              },
+              {
+                "id": "avg-loaded-speed",
+                "name": "Avg Loaded Speed",
+                "unit": "km/h"
+              },
+              {
+                "id": "avg-empty-speed",
+                "name": "Avg Empty Speed",
+                "unit": "km/h"
+              },
+              {
+                "id": "truck-loader-match-ratio",
+                "name": "Truck-to-Loader Match Ratio",
+                "unit": "ratio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "drill-performance",
+        "name": "Drill Performance",
+        "children": [
+          {
+            "id": "drill-productivity",
+            "name": "Drill Productivity",
+            "unit": "m/hr",
+            "children": [
+              {
+                "id": "penetration-rate",
+                "name": "Penetration Rate",
+                "unit": "m/min"
+              },
+              {
+                "id": "drilling-hrs-shift",
+                "name": "Drilling Hours per Shift",
+                "unit": "hrs"
+              },
+              {
+                "id": "holes-per-shift",
+                "name": "Holes Completed per Shift",
+                "unit": "holes"
+              }
+            ]
+          },
+          {
+            "id": "drill-cycle-time",
+            "name": "Drill Cycle Time",
+            "unit": "minutes",
+            "children": [
+              {
+                "id": "setup-position-time",
+                "name": "Setup/Position Time",
+                "unit": "min"
+              },
+              {
+                "id": "drilling-time",
+                "name": "Drilling Time",
+                "unit": "min"
+              },
+              {
+                "id": "rod-change-time",
+                "name": "Rod Change Time",
+                "unit": "min"
+              },
+              {
+                "id": "drill-delay-time",
+                "name": "Delay Time",
+                "unit": "min"
+              }
+            ]
+          },
+          {
+            "id": "drilling-quality",
+            "name": "Drilling Quality",
+            "children": [
+              {
+                "id": "hole-depth-accuracy",
+                "name": "Hole Depth Accuracy",
+                "unit": "%"
+              },
+              {
+                "id": "hole-angle-accuracy",
+                "name": "Hole Angle Accuracy",
+                "unit": "%"
+              },
+              {
+                "id": "over-drilling-pct",
+                "name": "Over-drilling %",
+                "unit": "%"
+              },
+              {
+                "id": "re-drilling-pct",
+                "name": "Re-drilling %",
+                "unit": "%"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dozer-performance",
+        "name": "Dozer Performance",
+        "children": [
+          {
+            "id": "dozer-productivity",
+            "name": "Dozer Productivity",
+            "unit": "BCM/hr",
+            "children": [
+              {
+                "id": "dozer-push-rate",
+                "name": "Push Rate",
+                "unit": "BCM/hr"
+              },
+              {
+                "id": "dozer-operating-hrs",
+                "name": "Operating Hours/Day",
+                "unit": "hrs"
+              }
+            ]
+          },
+          {
+            "id": "dozer-activities",
+            "name": "Dozer Activities",
+            "children": [
+              {
+                "id": "ripping-productivity",
+                "name": "Ripping Productivity",
+                "unit": "m/hr"
+              },
+              {
+                "id": "push-distance",
+                "name": "Average Push Distance",
+                "unit": "m"
+              },
+              {
+                "id": "dump-cleanup-time",
+                "name": "Dump Cleanup Time",
+                "unit": "hrs/shift"
+              },
+              {
+                "id": "road-maintenance-time",
+                "name": "Road Maintenance Time",
+                "unit": "hrs/shift"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grader-performance",
+        "name": "Grader Performance",
+        "children": [
+          {
+            "id": "grader-productivity",
+            "name": "Grader Productivity",
+            "unit": "km/hr",
+            "children": [
+              {
+                "id": "grading-speed",
+                "name": "Grading Speed",
+                "unit": "km/hr"
+              },
+              {
+                "id": "passes-per-section",
+                "name": "Passes per Section",
+                "unit": "passes"
+              }
+            ]
+          },
+          {
+            "id": "road-coverage",
+            "name": "Road Coverage",
+            "children": [
+              {
+                "id": "km-graded-shift",
+                "name": "Km Graded per Shift",
+                "unit": "km"
+              },
+              {
+                "id": "road-network-coverage",
+                "name": "Road Network Coverage",
+                "unit": "%/week"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "drill-blast-efficiency",
+    "name": "Drill & Blast Efficiency",
+    "esg": "E",
+    "scope": 1,
+    "children": [
+      {
+        "id": "blast-performance-outcomes",
+        "name": "Blast Performance Outcomes",
+        "children": [
+          {
+            "id": "fragmentation-quality",
+            "name": "Fragmentation Quality",
+            "children": [
+              {
+                "id": "oversize-material-pct",
+                "name": "% Oversize Material",
+                "unit": "%"
+              },
+              {
+                "id": "mean-fragmentation-size",
+                "name": "Mean Fragmentation Size (P50)",
+                "unit": "mm"
+              },
+              {
+                "id": "fragmentation-uniformity",
+                "name": "Fragmentation Uniformity Index",
+                "unit": "index"
+              }
+            ]
+          },
+          {
+            "id": "muckpile-geometry",
+            "name": "Muckpile Geometry",
+            "children": [
+              {
+                "id": "muckpile-swell-factor",
+                "name": "Muckpile Swell Factor",
+                "unit": "%"
+              },
+              {
+                "id": "throw-distance",
+                "name": "Throw Distance",
+                "unit": "m"
+              },
+              {
+                "id": "muckpile-height",
+                "name": "Muckpile Height",
+                "unit": "m"
+              }
+            ]
+          },
+          {
+            "id": "powder-factor",
+            "name": "Powder Factor",
+            "unit": "kg/BCM",
+            "esg": "E",
+            "scope": 1
+          },
+          {
+            "id": "meters-drilled-per-bcm",
+            "name": "Metres Drilled per BCM",
+            "unit": "m/BCM"
+          }
+        ]
+      },
+      {
+        "id": "blast-compliance",
+        "name": "Blast Compliance",
+        "esg": "E",
+        "children": [
+          {
+            "id": "blast-design-compliance",
+            "name": "Blast Design Compliance",
+            "unit": "%",
+            "children": [
+              {
+                "id": "burden-spacing-accuracy",
+                "name": "Burden & Spacing Accuracy",
+                "unit": "%"
+              },
+              {
+                "id": "stemming-height-compliance",
+                "name": "Stemming Height Compliance",
+                "unit": "%"
+              },
+              {
+                "id": "charge-weight-accuracy",
+                "name": "Charge Weight Accuracy",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "delay-timing-accuracy",
+            "name": "Delay Timing Accuracy",
+            "unit": "%"
+          },
+          {
+            "id": "flyrock-incidents",
+            "name": "Flyrock Incidents",
+            "unit": "count",
+            "esg": "S"
+          },
+          {
+            "id": "ground-vibration-compliance",
+            "name": "Ground Vibration Compliance",
+            "unit": "%",
+            "esg": "E"
+          },
+          {
+            "id": "airblast-overpressure-compliance",
+            "name": "Airblast Overpressure Compliance",
+            "unit": "%",
+            "esg": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pit-services",
+    "name": "Pit Services Performance",
+    "children": [
+      {
+        "id": "haul-road-performance",
+        "name": "Haul Road Performance",
+        "children": [
+          {
+            "id": "rolling-resistance",
+            "name": "Rolling Resistance",
+            "unit": "%"
+          },
+          {
+            "id": "road-surface-condition",
+            "name": "Road Surface Condition Index",
+            "unit": "score"
+          },
+          {
+            "id": "road-maint-cycle-time",
+            "name": "Road Maintenance Cycle Time",
+            "unit": "hrs"
+          },
+          {
+            "id": "road-condition-degradation",
+            "name": "Road Condition Degradation Rate",
+            "unit": "%/day"
+          },
+          {
+            "id": "road-availability",
+            "name": "Road Availability",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "drainage-dewatering",
+        "name": "Drainage & Dewatering",
+        "esg": "E",
+        "children": [
+          {
+            "id": "pumping-system-availability",
+            "name": "Pumping System Availability",
+            "unit": "%"
+          },
+          {
+            "id": "dewatering-target-achievement",
+            "name": "Dewatering Target Achievement",
+            "unit": "%"
+          },
+          {
+            "id": "pump-capacity-vs-inflow",
+            "name": "Pump Capacity vs Inflow Margin",
+            "unit": "%"
+          },
+          {
+            "id": "sump-management-efficiency",
+            "name": "Sump Management Efficiency",
+            "unit": "%"
+          },
+          {
+            "id": "water-recycling-rate",
+            "name": "Water Recycling Rate",
+            "unit": "%",
+            "esg": "E"
+          }
+        ]
+      },
+      {
+        "id": "pit-floor-trafficability",
+        "name": "Pit Floor Trafficability",
+        "children": [
+          {
+            "id": "floor-meeting-standards",
+            "name": "% Meeting Standards",
+            "unit": "%"
+          },
+          {
+            "id": "weather-related-loss-hrs",
+            "name": "Weather-Related Loss Hours",
+            "unit": "hrs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "delay-downtime",
+    "name": "Delay & Downtime Analysis",
+    "children": [
+      {
+        "id": "operational-delays",
+        "name": "Operational Delays",
+        "children": [
+          {
+            "id": "no-operator-available",
+            "name": "No Operator Available",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "no-work-assignment",
+            "name": "No Work Assignment",
+            "unit": "%"
+          },
+          {
+            "id": "waiting-for-service",
+            "name": "Waiting for Service",
+            "unit": "%"
+          },
+          {
+            "id": "blast-clearance-wait",
+            "name": "Blast Clearance Wait",
+            "unit": "%"
+          },
+          {
+            "id": "traffic-congestion",
+            "name": "Traffic Congestion",
+            "unit": "%"
+          },
+          {
+            "id": "weather-delays",
+            "name": "Weather Delays",
+            "unit": "%",
+            "esg": "E"
+          }
+        ]
+      },
+      {
+        "id": "mechanical-delays",
+        "name": "Mechanical Delays",
+        "children": [
+          {
+            "id": "powertrain-failures",
+            "name": "Powertrain Failures",
+            "unit": "hrs"
+          },
+          {
+            "id": "hydraulic-failures",
+            "name": "Hydraulic Failures",
+            "unit": "hrs"
+          },
+          {
+            "id": "electrical-failures",
+            "name": "Electrical Failures",
+            "unit": "hrs"
+          },
+          {
+            "id": "structural-get-failures",
+            "name": "Structural/GET Failures",
+            "unit": "hrs"
+          },
+          {
+            "id": "tire-failures",
+            "name": "Tire Failures",
+            "unit": "hrs"
+          }
+        ]
+      },
+      {
+        "id": "delay-impact",
+        "name": "Delay Impact",
+        "children": [
+          {
+            "id": "bcm-lost-per-delay-hr",
+            "name": "BCM Lost per Hour of Delay",
+            "unit": "BCM/hr"
+          },
+          {
+            "id": "revenue-impact-delay",
+            "name": "Revenue Impact",
+            "unit": "$/hr"
+          },
+          {
+            "id": "delay-trend-analysis",
+            "name": "Delay Trend (WoW)",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quality-compliance",
+    "name": "Quality & Compliance",
+    "esg": "G",
+    "children": [
+      {
+        "id": "material-classification",
+        "name": "Material Classification",
+        "children": [
+          {
+            "id": "ore-waste-boundary-compliance",
+            "name": "Ore/Waste Boundary Compliance",
+            "unit": "%"
+          },
+          {
+            "id": "ore-loss-to-waste",
+            "name": "Ore Loss to Waste",
+            "unit": "%"
+          },
+          {
+            "id": "waste-dilution-in-ore",
+            "name": "Waste Dilution in Ore",
+            "unit": "%"
+          },
+          {
+            "id": "coal-quality-ash",
+            "name": "Coal Quality (Ash Content)",
+            "unit": "%"
+          }
+        ]
+      },
+      {
+        "id": "grade-control-compliance",
+        "name": "Grade Control Compliance",
+        "esg": "G",
+        "children": [
+          {
+            "id": "dig-plan-adherence",
+            "name": "Dig Plan Adherence",
+            "unit": "%",
+            "esg": "G"
+          },
+          {
+            "id": "sample-frequency-compliance",
+            "name": "Sample Frequency Compliance",
+            "unit": "%"
+          },
+          {
+            "id": "material-segregation-effectiveness",
+            "name": "Material Segregation Effectiveness",
+            "unit": "%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "safety",
+    "name": "Safety",
+    "esg": "S",
+    "children": [
+      {
+        "id": "lagging-indicators",
+        "name": "Lagging Indicators",
+        "esg": "S",
+        "children": [
+          {
+            "id": "trifr",
+            "name": "TRIFR",
+            "unit": "per million hrs",
+            "esg": "S"
+          },
+          {
+            "id": "ltifr",
+            "name": "LTIFR",
+            "unit": "per million hrs",
+            "esg": "S"
+          },
+          {
+            "id": "severity-rate",
+            "name": "Severity Rate",
+            "unit": "days/injury",
+            "esg": "S"
+          },
+          {
+            "id": "first-aid-frequency",
+            "name": "First Aid Frequency",
+            "unit": "per million hrs",
+            "esg": "S"
+          }
+        ]
+      },
+      {
+        "id": "leading-indicators",
+        "name": "Leading Indicators",
+        "esg": "S",
+        "children": [
+          {
+            "id": "near-miss-reporting-rate",
+            "name": "Near Miss Reporting Rate",
+            "unit": "per 1000 hrs",
+            "esg": "S"
+          },
+          {
+            "id": "safety-observation-rate",
+            "name": "Safety Observation Rate",
+            "unit": "per 1000 hrs",
+            "esg": "S"
+          },
+          {
+            "id": "pre-start-completion",
+            "name": "Pre-Start Completion",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "safety-training-compliance",
+            "name": "Training Compliance",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "critical-control-verification",
+            "name": "Critical Control Verification",
+            "unit": "%",
+            "esg": "S"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scope-management",
+    "name": "Scope Management",
+    "esg": "G",
+    "children": [
+      {
+        "id": "scope-creep-indicators",
+        "name": "Scope Creep Indicators",
+        "esg": "G",
+        "children": [
+          {
+            "id": "work-outside-scope",
+            "name": "Work Outside Approved Scope",
+            "unit": "hrs",
+            "esg": "G"
+          },
+          {
+            "id": "variation-order-response",
+            "name": "Variation Order Response Time",
+            "unit": "days"
+          },
+          {
+            "id": "uncompensated-work-pct",
+            "name": "Uncompensated Work Hours",
+            "unit": "%",
+            "esg": "G"
+          },
+          {
+            "id": "contract-boundary-compliance",
+            "name": "Contract Boundary Compliance",
+            "unit": "%",
+            "esg": "G"
+          }
+        ]
+      },
+      {
+        "id": "target-achievement",
+        "name": "Target Achievement",
+        "children": [
+          {
+            "id": "production-target-achievement",
+            "name": "Production Target Achievement",
+            "unit": "%"
+          },
+          {
+            "id": "budget-variance-scope",
+            "name": "Budget Variance",
+            "unit": "$"
+          },
+          {
+            "id": "scope-change-frequency",
+            "name": "Scope Change Frequency",
+            "unit": "count/month"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maintenance",
+    "name": "Maintenance",
+    "children": [
+      {
+        "id": "asset-lifecycle-value",
+        "name": "Asset Lifecycle Value",
+        "children": [
+          {
+            "id": "total-asset-lifecycle-value",
+            "name": "Total Asset Lifecycle Value (TALV)",
+            "unit": "$",
+            "children": [
+              {
+                "id": "talv-revenue-generated",
+                "name": "Total Revenue Generated",
+                "unit": "$"
+              },
+              {
+                "id": "talv-maint-costs",
+                "name": "Total Maintenance Costs",
+                "unit": "$"
+              },
+              {
+                "id": "talv-residual-value",
+                "name": "Residual Value at Disposal",
+                "unit": "$"
+              }
+            ]
+          },
+          {
+            "id": "fleet-economic-life",
+            "name": "Fleet Economic Life Achievement",
+            "unit": "%",
+            "children": [
+              {
+                "id": "actual-vs-planned-life",
+                "name": "Actual vs Planned Life",
+                "unit": "%"
+              },
+              {
+                "id": "life-extension-achieved",
+                "name": "Life Extension Achieved",
+                "unit": "hrs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asset-effectiveness",
+        "name": "Asset Effectiveness",
+        "children": [
+          {
+            "id": "asset-availability",
+            "name": "Asset Availability",
+            "unit": "%",
+            "children": [
+              {
+                "id": "maint-physical-availability",
+                "name": "Physical Availability",
+                "unit": "%"
+              },
+              {
+                "id": "maint-mechanical-availability",
+                "name": "Mechanical Availability",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "maint-oee",
+            "name": "Overall Equipment Effectiveness (OEE)",
+            "unit": "%",
+            "children": [
+              {
+                "id": "oee-availability",
+                "name": "Availability Component",
+                "unit": "%"
+              },
+              {
+                "id": "oee-performance",
+                "name": "Performance Component",
+                "unit": "%"
+              },
+              {
+                "id": "oee-quality",
+                "name": "Quality Component",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "residual-value-achievement",
+            "name": "Residual Value Achievement",
+            "unit": "%",
+            "children": [
+              {
+                "id": "actual-vs-planned-residual",
+                "name": "Actual vs Planned Residual",
+                "unit": "%"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reliability-engineering",
+        "name": "Reliability Engineering",
+        "children": [
+          {
+            "id": "mtbf-by-fleet",
+            "name": "MTBF by Equipment Class",
+            "unit": "hours",
+            "children": [
+              {
+                "id": "mtbf-haul-trucks",
+                "name": "Haul Trucks MTBF",
+                "unit": "hrs"
+              },
+              {
+                "id": "mtbf-excavators",
+                "name": "Excavators MTBF",
+                "unit": "hrs"
+              },
+              {
+                "id": "mtbf-dozers",
+                "name": "Dozers MTBF",
+                "unit": "hrs"
+              },
+              {
+                "id": "mtbf-graders",
+                "name": "Graders MTBF",
+                "unit": "hrs"
+              },
+              {
+                "id": "mtbf-drills",
+                "name": "Drill Rigs MTBF",
+                "unit": "hrs"
+              }
+            ]
+          },
+          {
+            "id": "mttr-by-fleet",
+            "name": "MTTR by Equipment Class",
+            "unit": "hours",
+            "children": [
+              {
+                "id": "mttr-haul-trucks",
+                "name": "Haul Trucks MTTR",
+                "unit": "hrs"
+              },
+              {
+                "id": "mttr-excavators",
+                "name": "Excavators MTTR",
+                "unit": "hrs"
+              },
+              {
+                "id": "mttr-dozers",
+                "name": "Dozers MTTR",
+                "unit": "hrs"
+              },
+              {
+                "id": "mttr-graders",
+                "name": "Graders MTTR",
+                "unit": "hrs"
+              },
+              {
+                "id": "mttr-drills",
+                "name": "Drill Rigs MTTR",
+                "unit": "hrs"
+              }
+            ]
+          },
+          {
+            "id": "failure-mode-distribution",
+            "name": "Failure Mode Distribution",
+            "children": [
+              {
+                "id": "wear-out-failures",
+                "name": "Wear-out Failures",
+                "unit": "%"
+              },
+              {
+                "id": "random-failures",
+                "name": "Random Failures",
+                "unit": "%"
+              },
+              {
+                "id": "infant-mortality",
+                "name": "Infant Mortality",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "reliability-growth-rate",
+            "name": "Reliability Growth Rate",
+            "unit": "%"
+          },
+          {
+            "id": "condition-monitoring",
+            "name": "Condition Monitoring Effectiveness",
+            "children": [
+              {
+                "id": "oil-analysis",
+                "name": "Oil Analysis",
+                "children": [
+                  {
+                    "id": "oil-sample-compliance",
+                    "name": "Sample Compliance",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "oil-abnormal-results",
+                    "name": "Abnormal Results Rate",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "oil-predictive-detection",
+                    "name": "Predictive Detection Rate",
+                    "unit": "%"
+                  }
+                ]
+              },
+              {
+                "id": "vibration-analysis",
+                "name": "Vibration Analysis",
+                "children": [
+                  {
+                    "id": "vibration-survey-compliance",
+                    "name": "Survey Compliance",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "vibration-defect-detection",
+                    "name": "Defect Detection Rate",
+                    "unit": "%"
+                  }
+                ]
+              },
+              {
+                "id": "thermography",
+                "name": "Thermography",
+                "children": [
+                  {
+                    "id": "thermo-electrical-coverage",
+                    "name": "Electrical System Coverage",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "thermo-hot-spot-detection",
+                    "name": "Hot Spot Detection Rate",
+                    "unit": "%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maintenance-execution",
+        "name": "Maintenance Execution",
+        "children": [
+          {
+            "id": "planned-unplanned-ratio",
+            "name": "Planned vs Unplanned Ratio",
+            "children": [
+              {
+                "id": "planned-maintenance-pct",
+                "name": "Planned Maintenance",
+                "unit": "%",
+                "children": [
+                  {
+                    "id": "preventive-pct",
+                    "name": "Preventive",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "predictive-pct",
+                    "name": "Predictive",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "planned-corrective-pct",
+                    "name": "Planned Corrective",
+                    "unit": "%"
+                  }
+                ]
+              },
+              {
+                "id": "unplanned-reactive-pct",
+                "name": "Unplanned/Reactive",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "pm-compliance",
+            "name": "PM Compliance",
+            "unit": "%",
+            "children": [
+              {
+                "id": "pm-on-time-completion",
+                "name": "On-Time Completion",
+                "unit": "%"
+              },
+              {
+                "id": "pm-overdue",
+                "name": "Overdue PMs",
+                "unit": "count"
+              },
+              {
+                "id": "pm-quality-score",
+                "name": "PM Quality Score",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "wrench-time",
+            "name": "Wrench Time",
+            "unit": "%",
+            "children": [
+              {
+                "id": "direct-work-pct",
+                "name": "Direct Work",
+                "unit": "%"
+              },
+              {
+                "id": "waiting-delay-pct",
+                "name": "Waiting/Delay",
+                "unit": "%"
+              },
+              {
+                "id": "travel-pct",
+                "name": "Travel",
+                "unit": "%"
+              },
+              {
+                "id": "admin-paperwork-pct",
+                "name": "Admin/Paperwork",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "work-order-mgmt",
+            "name": "Work Order Management",
+            "children": [
+              {
+                "id": "wo-backlog-weeks",
+                "name": "Backlog",
+                "unit": "weeks"
+              },
+              {
+                "id": "wo-completion-rate",
+                "name": "Completion Rate",
+                "unit": "%"
+              },
+              {
+                "id": "wo-avg-age",
+                "name": "Avg Days Open",
+                "unit": "days"
+              },
+              {
+                "id": "wo-emergency-rate",
+                "name": "Emergency WO Rate",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "parts-availability",
+            "name": "Parts Availability",
+            "children": [
+              {
+                "id": "critical-parts-availability",
+                "name": "Critical Parts",
+                "unit": "%"
+              },
+              {
+                "id": "routine-parts-availability",
+                "name": "Routine Parts",
+                "unit": "%"
+              },
+              {
+                "id": "stockout-rate",
+                "name": "Stockout Rate",
+                "unit": "%"
+              },
+              {
+                "id": "emergency-orders-rate",
+                "name": "Emergency Orders",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "maint-quality-metrics",
+            "name": "Quality Metrics",
+            "children": [
+              {
+                "id": "first-time-fix-rate",
+                "name": "First-Time Fix Rate",
+                "unit": "%"
+              },
+              {
+                "id": "rework-rate",
+                "name": "Rework Rate",
+                "unit": "%"
+              },
+              {
+                "id": "repeat-failures",
+                "name": "Repeat Failures",
+                "unit": "%"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "component-lifecycle",
+        "name": "Component Lifecycle Management",
+        "children": [
+          {
+            "id": "engines",
+            "name": "Engines",
+            "children": [
+              {
+                "id": "engine-hrs-first-rebuild",
+                "name": "Hours to First Rebuild",
+                "unit": "hrs"
+              },
+              {
+                "id": "engine-hrs-second-rebuild",
+                "name": "Hours to Second Rebuild",
+                "unit": "hrs"
+              },
+              {
+                "id": "engine-rebuild-cost-vs-new",
+                "name": "Rebuild Cost vs New",
+                "unit": "%"
+              },
+              {
+                "id": "engine-oil-consumption",
+                "name": "Oil Consumption Rate",
+                "unit": "L/hr"
+              },
+              {
+                "id": "engine-fuel-efficiency-trend",
+                "name": "Fuel Efficiency Trend",
+                "unit": "L/hr",
+                "esg": "E",
+                "scope": 1
+              }
+            ]
+          },
+          {
+            "id": "transmissions",
+            "name": "Transmissions",
+            "children": [
+              {
+                "id": "trans-hrs-overhaul",
+                "name": "Hours to Overhaul",
+                "unit": "hrs"
+              },
+              {
+                "id": "trans-shift-quality",
+                "name": "Shift Quality Score",
+                "unit": "score"
+              },
+              {
+                "id": "trans-oil-temp-trend",
+                "name": "Oil Temperature Trend",
+                "unit": "°C"
+              },
+              {
+                "id": "trans-filter-restriction",
+                "name": "Filter Restriction Trend",
+                "unit": "kPa"
+              }
+            ]
+          },
+          {
+            "id": "final-drives",
+            "name": "Final Drives",
+            "children": [
+              {
+                "id": "fd-hrs-rebuild-trucks",
+                "name": "Trucks - Hours to Rebuild",
+                "unit": "hrs"
+              },
+              {
+                "id": "fd-hrs-rebuild-dozers",
+                "name": "Dozers - Hours to Rebuild",
+                "unit": "hrs"
+              },
+              {
+                "id": "fd-oil-analysis",
+                "name": "Oil Analysis Results",
+                "unit": "score"
+              },
+              {
+                "id": "fd-temp-trend",
+                "name": "Temperature Trend",
+                "unit": "°C"
+              }
+            ]
+          },
+          {
+            "id": "hydraulic-systems",
+            "name": "Hydraulic Systems",
+            "children": [
+              {
+                "id": "hyd-pump-life",
+                "name": "Pump Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "hyd-cylinder-life",
+                "name": "Cylinder Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "hyd-iso-cleanliness",
+                "name": "ISO Cleanliness Level",
+                "unit": "code"
+              },
+              {
+                "id": "hyd-system-pressure",
+                "name": "System Pressure Trend",
+                "unit": "bar"
+              },
+              {
+                "id": "hyd-leak-rate",
+                "name": "Leak Rate/Consumption",
+                "unit": "L/hr"
+              }
+            ]
+          },
+          {
+            "id": "undercarriage",
+            "name": "Undercarriage (Dozers)",
+            "children": [
+              {
+                "id": "uc-track-life",
+                "name": "Track Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "uc-roller-life",
+                "name": "Roller Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "uc-idler-life",
+                "name": "Idler Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "uc-sprocket-life",
+                "name": "Sprocket Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "uc-cost-per-hr",
+                "name": "Undercarriage Cost",
+                "unit": "$/hr"
+              },
+              {
+                "id": "uc-wear-rate-vs-benchmark",
+                "name": "Wear Rate vs Benchmark",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "tyres",
+            "name": "Tyres (Trucks)",
+            "children": [
+              {
+                "id": "tyre-life-by-position",
+                "name": "Tyre Life by Position",
+                "children": [
+                  {
+                    "id": "tyre-life-steers",
+                    "name": "Steers",
+                    "unit": "hrs"
+                  },
+                  {
+                    "id": "tyre-life-drives",
+                    "name": "Drives",
+                    "unit": "hrs"
+                  },
+                  {
+                    "id": "tyre-life-trailers",
+                    "name": "Trailers",
+                    "unit": "hrs"
+                  }
+                ]
+              },
+              {
+                "id": "tyre-tkph-achievement",
+                "name": "TKPH Achievement",
+                "unit": "%"
+              },
+              {
+                "id": "tyre-rotation-compliance",
+                "name": "Rotation Compliance",
+                "unit": "%"
+              },
+              {
+                "id": "tyre-cost-per-hr",
+                "name": "Tyre Cost",
+                "unit": "$/hr"
+              },
+              {
+                "id": "tyre-damage-rate",
+                "name": "Damage Rate",
+                "children": [
+                  {
+                    "id": "tyre-cuts-punctures",
+                    "name": "Cuts/Punctures",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "tyre-impact-damage",
+                    "name": "Impact Damage",
+                    "unit": "%"
+                  },
+                  {
+                    "id": "tyre-heat-separation",
+                    "name": "Heat Separation",
+                    "unit": "%"
+                  }
+                ]
+              },
+              {
+                "id": "tyre-retread-ratio",
+                "name": "Retread Ratio",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "get-lifecycle",
+            "name": "GET (Ground Engaging Tools)",
+            "children": [
+              {
+                "id": "get-tooth-life",
+                "name": "Tooth Life by Application",
+                "children": [
+                  {
+                    "id": "get-tooth-excavator",
+                    "name": "Excavator",
+                    "unit": "hrs"
+                  },
+                  {
+                    "id": "get-tooth-loader",
+                    "name": "Loader",
+                    "unit": "hrs"
+                  },
+                  {
+                    "id": "get-tooth-dozer-ripper",
+                    "name": "Dozer Ripper",
+                    "unit": "hrs"
+                  }
+                ]
+              },
+              {
+                "id": "get-cutting-edge-life",
+                "name": "Cutting Edge Life",
+                "unit": "hrs"
+              },
+              {
+                "id": "get-cost-per-bcm",
+                "name": "GET Cost",
+                "unit": "$/BCM"
+              },
+              {
+                "id": "get-wear-rate-benchmark",
+                "name": "Wear Rate vs Benchmark",
+                "unit": "%"
+              },
+              {
+                "id": "get-changeover-time",
+                "name": "Changeover Time",
+                "unit": "min"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workshop-operations",
+        "name": "Workshop Operations",
+        "children": [
+          {
+            "id": "bay-utilization",
+            "name": "Bay Utilization",
+            "unit": "%",
+            "children": [
+              {
+                "id": "scheduled-occupancy",
+                "name": "Scheduled Occupancy",
+                "unit": "%"
+              },
+              {
+                "id": "actual-occupancy",
+                "name": "Actual Occupancy",
+                "unit": "%"
+              },
+              {
+                "id": "idle-bays",
+                "name": "Downtime/Idle Bays",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "turnaround-time",
+            "name": "Turn-Around Time by Job Type",
+            "children": [
+              {
+                "id": "tat-250hr-pm",
+                "name": "250hr PM",
+                "unit": "hrs"
+              },
+              {
+                "id": "tat-500hr-pm",
+                "name": "500hr PM",
+                "unit": "hrs"
+              },
+              {
+                "id": "tat-1000hr-pm",
+                "name": "1000hr PM",
+                "unit": "hrs"
+              },
+              {
+                "id": "tat-component-rr",
+                "name": "Component R&R",
+                "children": [
+                  {
+                    "id": "tat-engine-rr",
+                    "name": "Engine",
+                    "unit": "hrs"
+                  },
+                  {
+                    "id": "tat-transmission-rr",
+                    "name": "Transmission",
+                    "unit": "hrs"
+                  },
+                  {
+                    "id": "tat-final-drive-rr",
+                    "name": "Final Drive",
+                    "unit": "hrs"
+                  }
+                ]
+              },
+              {
+                "id": "tat-unscheduled",
+                "name": "Unscheduled Repairs (avg)",
+                "unit": "hrs"
+              }
+            ]
+          },
+          {
+            "id": "workshop-labor-efficiency",
+            "name": "Labor Efficiency",
+            "esg": "S",
+            "children": [
+              {
+                "id": "actual-vs-estimated-hrs",
+                "name": "Actual vs Estimated Hours",
+                "unit": "%"
+              },
+              {
+                "id": "workshop-overtime-rate",
+                "name": "Overtime Rate",
+                "unit": "%",
+                "esg": "S"
+              },
+              {
+                "id": "contractor-usage-rate",
+                "name": "Contractor Usage",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "tool-equipment-availability",
+            "name": "Tool/Equipment Availability",
+            "unit": "%",
+            "children": [
+              {
+                "id": "service-truck-availability",
+                "name": "Service Trucks",
+                "unit": "%"
+              },
+              {
+                "id": "crane-lifting-availability",
+                "name": "Cranes/Lifting",
+                "unit": "%"
+              },
+              {
+                "id": "special-tools-availability",
+                "name": "Special Tools",
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "id": "workshop-quality",
+            "name": "Quality Metrics",
+            "esg": "G",
+            "children": [
+              {
+                "id": "workshop-audit-score",
+                "name": "Audit Score",
+                "unit": "%",
+                "esg": "G"
+              },
+              {
+                "id": "warranty-claims",
+                "name": "Warranty Claims",
+                "unit": "count"
+              },
+              {
+                "id": "customer-complaints",
+                "name": "Customer Complaints",
+                "unit": "count"
+              }
+            ]
+          },
+          {
+            "id": "training-competency",
+            "name": "Training & Competency",
+            "esg": "S",
+            "children": [
+              {
+                "id": "training-hrs-per-tech",
+                "name": "Training Hours/Tech/Year",
+                "unit": "hrs",
+                "esg": "S"
+              },
+              {
+                "id": "certification-currency",
+                "name": "Certification Currency",
+                "unit": "%",
+                "esg": "S"
+              },
+              {
+                "id": "competency-pass-rate",
+                "name": "Competency Assessment Pass Rate",
+                "unit": "%",
+                "esg": "S"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maintenance-costs-detail",
+        "name": "Maintenance Cost Decomposition",
+        "children": [
+          {
+            "id": "maint-cost-by-fleet",
+            "name": "Cost by Fleet Class",
+            "unit": "$/hr",
+            "children": [
+              {
+                "id": "maint-cost-trucks",
+                "name": "Haul Trucks",
+                "children": [
+                  {
+                    "id": "maint-cost-785",
+                    "name": "CAT 785",
+                    "unit": "$/hr"
+                  },
+                  {
+                    "id": "maint-cost-789",
+                    "name": "CAT 789",
+                    "unit": "$/hr"
+                  },
+                  {
+                    "id": "maint-cost-793",
+                    "name": "CAT 793",
+                    "unit": "$/hr"
+                  }
+                ]
+              },
+              {
+                "id": "maint-cost-excavators",
+                "name": "Large Excavators",
+                "children": [
+                  {
+                    "id": "maint-cost-6030",
+                    "name": "CAT 6030",
+                    "unit": "$/hr"
+                  },
+                  {
+                    "id": "maint-cost-6060",
+                    "name": "CAT 6060",
+                    "unit": "$/hr"
+                  },
+                  {
+                    "id": "maint-cost-ex5600",
+                    "name": "Hitachi EX5600/8000",
+                    "unit": "$/hr"
+                  }
+                ]
+              },
+              {
+                "id": "maint-cost-dozers",
+                "name": "Dozers",
+                "children": [
+                  {
+                    "id": "maint-cost-d10",
+                    "name": "CAT D10",
+                    "unit": "$/hr"
+                  },
+                  {
+                    "id": "maint-cost-d11",
+                    "name": "CAT D11",
+                    "unit": "$/hr"
+                  }
+                ]
+              },
+              {
+                "id": "maint-cost-graders",
+                "name": "Graders",
+                "children": [
+                  {
+                    "id": "maint-cost-16m",
+                    "name": "CAT 16M",
+                    "unit": "$/hr"
+                  },
+                  {
+                    "id": "maint-cost-24m",
+                    "name": "CAT 24M",
+                    "unit": "$/hr"
+                  }
+                ]
+              },
+              {
+                "id": "maint-cost-drills",
+                "name": "Drill Rigs",
+                "unit": "$/hr"
+              }
+            ]
+          },
+          {
+            "id": "maint-cost-by-category",
+            "name": "Cost by Category",
+            "children": [
+              {
+                "id": "parts-materials-cost",
+                "name": "Parts & Materials (45-55%)",
+                "unit": "$",
+                "children": [
+                  {
+                    "id": "major-components-cost",
+                    "name": "Major Components",
+                    "children": [
+                      {
+                        "id": "engine-cost-per-hr",
+                        "name": "Engines",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "trans-cost-per-hr",
+                        "name": "Transmissions",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "fd-cost-per-hr",
+                        "name": "Final Drives",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "hyd-pump-cost-per-hr",
+                        "name": "Hydraulic Pumps",
+                        "unit": "$/hr"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wear-items-cost",
+                    "name": "Wear Items",
+                    "children": [
+                      {
+                        "id": "tyre-cost-per-hr-detail",
+                        "name": "Tyres",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "get-cost-per-hr",
+                        "name": "GET",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "uc-cost-per-hr-detail",
+                        "name": "Undercarriage",
+                        "unit": "$/hr"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "consumables-cost",
+                    "name": "Consumables",
+                    "children": [
+                      {
+                        "id": "filters-cost-per-hr",
+                        "name": "Filters",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "lubricants-cost-per-hr",
+                        "name": "Lubricants",
+                        "unit": "$/hr"
+                      },
+                      {
+                        "id": "fluids-cost-per-hr",
+                        "name": "Fluids",
+                        "unit": "$/hr"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "maint-labor-cost",
+                "name": "Labor (35-45%)",
+                "unit": "$",
+                "esg": "S",
+                "children": [
+                  {
+                    "id": "direct-maint-labor",
+                    "name": "Direct Labor",
+                    "unit": "$/hr",
+                    "esg": "S"
+                  },
+                  {
+                    "id": "overtime-premium",
+                    "name": "Overtime Premium",
+                    "unit": "$/hr",
+                    "esg": "S"
+                  },
+                  {
+                    "id": "benefits-oncosts",
+                    "name": "Benefits/Oncosts",
+                    "unit": "%",
+                    "esg": "S"
+                  }
+                ]
+              },
+              {
+                "id": "workshop-overhead-cost",
+                "name": "Workshop Overhead (5-8%)",
+                "unit": "$",
+                "children": [
+                  {
+                    "id": "facility-costs",
+                    "name": "Facility Costs",
+                    "unit": "$"
+                  },
+                  {
+                    "id": "tools-equipment-cost",
+                    "name": "Tools & Equipment",
+                    "unit": "$"
+                  },
+                  {
+                    "id": "utilities-cost",
+                    "name": "Utilities",
+                    "unit": "$"
+                  }
+                ]
+              },
+              {
+                "id": "inventory-carrying-cost",
+                "name": "Inventory Carrying (15-25%)",
+                "unit": "$",
+                "children": [
+                  {
+                    "id": "storage-costs",
+                    "name": "Storage Costs",
+                    "unit": "$"
+                  },
+                  {
+                    "id": "obsolescence-cost",
+                    "name": "Obsolescence",
+                    "unit": "$"
+                  },
+                  {
+                    "id": "capital-cost-inventory",
+                    "name": "Capital Cost",
+                    "unit": "$"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "total-cost-ownership",
+            "name": "Total Cost of Ownership",
+            "unit": "$/hr",
+            "children": [
+              {
+                "id": "tco-ultra-trucks",
+                "name": "Ultra-Class Trucks",
+                "unit": "$/hr"
+              },
+              {
+                "id": "tco-large-excavators",
+                "name": "Large Excavators",
+                "unit": "$/hr"
+              },
+              {
+                "id": "tco-dozers",
+                "name": "Dozers",
+                "unit": "$/hr"
+              },
+              {
+                "id": "tco-graders",
+                "name": "Graders",
+                "unit": "$/hr"
+              },
+              {
+                "id": "tco-drills",
+                "name": "Drill Rigs",
+                "unit": "$/hr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maint-esg-compliance",
+        "name": "ESG & Compliance",
+        "children": [
+          {
+            "id": "maint-environmental",
+            "name": "Environmental",
+            "esg": "E",
+            "children": [
+              {
+                "id": "maint-fuel-efficiency",
+                "name": "Fuel Efficiency",
+                "unit": "L/hr",
+                "esg": "E",
+                "scope": 1
+              },
+              {
+                "id": "waste-oil-recovery",
+                "name": "Waste Oil Recovery",
+                "unit": "%",
+                "esg": "E"
+              },
+              {
+                "id": "parts-recycling-rate",
+                "name": "Parts Recycling Rate",
+                "unit": "%",
+                "esg": "E"
+              },
+              {
+                "id": "spill-incidents",
+                "name": "Spill Incidents",
+                "unit": "count",
+                "esg": "E"
+              }
+            ]
+          },
+          {
+            "id": "maint-social",
+            "name": "Social",
+            "esg": "S",
+            "children": [
+              {
+                "id": "maint-trifr",
+                "name": "Maintenance TRIFR",
+                "unit": "per million hrs",
+                "esg": "S"
+              },
+              {
+                "id": "maint-training-investment",
+                "name": "Training Investment",
+                "unit": "$/FTE",
+                "esg": "S"
+              },
+              {
+                "id": "local-employment",
+                "name": "Local Employment",
+                "unit": "%",
+                "esg": "S"
+              }
+            ]
+          },
+          {
+            "id": "maint-governance",
+            "name": "Governance",
+            "esg": "G",
+            "children": [
+              {
+                "id": "maint-audit-compliance",
+                "name": "Audit Compliance",
+                "unit": "%",
+                "esg": "G"
+              },
+              {
+                "id": "maint-procedure-adherence",
+                "name": "Procedure Adherence",
+                "unit": "%",
+                "esg": "G"
+              },
+              {
+                "id": "oem-certification-currency",
+                "name": "OEM Certification Currency",
+                "unit": "%",
+                "esg": "G"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "environmental",
+    "name": "Environmental",
+    "esg": "E",
+    "children": [
+      {
+        "id": "emissions",
+        "name": "Emissions",
+        "esg": "E",
+        "children": [
+          {
+            "id": "scope1-emissions",
+            "name": "Scope 1 Emissions",
+            "esg": "E",
+            "scope": 1,
+            "children": [
+              {
+                "id": "diesel-fleet-emissions",
+                "name": "Diesel Fleet Emissions",
+                "unit": "tCO2e",
+                "esg": "E",
+                "scope": 1
+              },
+              {
+                "id": "diesel-support-emissions",
+                "name": "Diesel Support Equipment",
+                "unit": "tCO2e",
+                "esg": "E",
+                "scope": 1
+              },
+              {
+                "id": "explosives-emissions",
+                "name": "Explosives Detonation",
+                "unit": "tCO2e",
+                "esg": "E",
+                "scope": 1
+              },
+              {
+                "id": "generator-emissions",
+                "name": "Generator Fuel",
+                "unit": "tCO2e",
+                "esg": "E",
+                "scope": 1
+              }
+            ]
+          },
+          {
+            "id": "scope2-emissions",
+            "name": "Scope 2 Emissions",
+            "esg": "E",
+            "scope": 2,
+            "children": [
+              {
+                "id": "grid-power-camp",
+                "name": "Grid Power - Camp/Office",
+                "unit": "tCO2e",
+                "esg": "E",
+                "scope": 2
+              },
+              {
+                "id": "grid-power-workshop",
+                "name": "Grid Power - Workshop",
+                "unit": "tCO2e",
+                "esg": "E",
+                "scope": 2
+              }
+            ]
+          },
+          {
+            "id": "emissions-intensity",
+            "name": "Emissions Intensity",
+            "unit": "kgCO2e/BCM",
+            "esg": "E",
+            "scope": 1
+          }
+        ]
+      },
+      {
+        "id": "resource-efficiency",
+        "name": "Resource Efficiency",
+        "esg": "E",
+        "children": [
+          {
+            "id": "fuel-per-bcm",
+            "name": "Fuel per BCM",
+            "unit": "L/BCM",
+            "esg": "E",
+            "scope": 1
+          },
+          {
+            "id": "water-usage",
+            "name": "Water Usage",
+            "unit": "kL/BCM",
+            "esg": "E"
+          },
+          {
+            "id": "water-recycled-pct",
+            "name": "Water Recycled",
+            "unit": "%",
+            "esg": "E"
+          }
+        ]
+      },
+      {
+        "id": "waste-management",
+        "name": "Waste Management",
+        "esg": "E",
+        "children": [
+          {
+            "id": "waste-recycling-rate",
+            "name": "Waste Recycling Rate",
+            "unit": "%",
+            "esg": "E"
+          },
+          {
+            "id": "hazardous-waste",
+            "name": "Hazardous Waste Generated",
+            "unit": "tonnes",
+            "esg": "E"
+          },
+          {
+            "id": "waste-oil-recycled",
+            "name": "Waste Oil Recycled",
+            "unit": "%",
+            "esg": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "workforce",
+    "name": "Workforce",
+    "esg": "S",
+    "children": [
+      {
+        "id": "workforce-metrics",
+        "name": "Workforce Metrics",
+        "esg": "S",
+        "children": [
+          {
+            "id": "total-headcount",
+            "name": "Total Headcount",
+            "unit": "FTE",
+            "esg": "S"
+          },
+          {
+            "id": "turnover-rate",
+            "name": "Turnover Rate",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "absenteeism-rate",
+            "name": "Absenteeism Rate",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "training-hours-fte",
+            "name": "Training Hours per FTE",
+            "unit": "hrs",
+            "esg": "S"
+          }
+        ]
+      },
+      {
+        "id": "diversity-inclusion",
+        "name": "Diversity & Inclusion",
+        "esg": "S",
+        "children": [
+          {
+            "id": "female-participation",
+            "name": "Female Participation",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "indigenous-employment",
+            "name": "Indigenous Employment",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "local-employment-rate",
+            "name": "Local Employment",
+            "unit": "%",
+            "esg": "S"
+          }
+        ]
+      },
+      {
+        "id": "operator-performance",
+        "name": "Operator Performance",
+        "esg": "S",
+        "children": [
+          {
+            "id": "operator-productivity-index",
+            "name": "Operator Productivity Index",
+            "unit": "score",
+            "esg": "S"
+          },
+          {
+            "id": "operator-certification-rate",
+            "name": "Certification Rate",
+            "unit": "%",
+            "esg": "S"
+          },
+          {
+            "id": "operator-fatigue-events",
+            "name": "Fatigue Events",
+            "unit": "count",
+            "esg": "S"
+          }
+        ]
+      }
+    ]
+  }
+]
